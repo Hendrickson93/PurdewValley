@@ -1,0 +1,462 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8109 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50028
+Successfully changed project path to: C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
+C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 881.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
+    Vendor:   Intel
+    VRAM:     4054 MB
+    Driver:   24.20.100.6293
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.058749 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 717.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.406 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4408ms)
+		BeginReloadAssembly (398ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (3471ms)
+			LoadAssemblies (392ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (504ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (2591ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (718ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (1667ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 691.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.700 seconds
+Domain Reload Profiling:
+	ReloadAssembly (6702ms)
+		BeginReloadAssembly (620ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (4ms)
+			CreateAndSetChildDomain (109ms)
+		EndReloadAssembly (5524ms)
+			LoadAssemblies (514ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1318ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (324ms)
+			SetupLoadedEditorAssemblies (3126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (692ms)
+				BeforeProcessingInitializeOnLoad (577ms)
+				ProcessInitializeOnLoadAttributes (1499ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.27 seconds
+Refreshing native plugins compatible for Editor in 3.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4069 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (223.5 KB). Loaded Objects now: 4520.
+Memory consumption went from 155.9 MB to 155.7 MB.
+Total: 14.138000 ms (FindLiveObjects: 0.645900 ms CreateObjectMapping: 0.550600 ms MarkObjects: 12.587600 ms  DeleteObjects: 0.351800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 637373.919075 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_14.asset
+  artifactKey: Guid(f071fd0f09a16c4428cb5875cdd179c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_14.asset using Guid(f071fd0f09a16c4428cb5875cdd179c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a30b9000b209b0122bc5cdb503d4df') in 0.332048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_22.asset
+  artifactKey: Guid(f519004a6556afe42b59d4373f99895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_22.asset using Guid(f519004a6556afe42b59d4373f99895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391744df4a0f0f9a8d8fee0946e9959c') in 0.231602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_15.asset
+  artifactKey: Guid(5cce99665f8c2e04093e84c3b8203ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_15.asset using Guid(5cce99665f8c2e04093e84c3b8203ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962620c2c7382cf2144e59543e83d438') in 0.457771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_5.asset
+  artifactKey: Guid(90f956f096ee398458d0dce17cf53553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_5.asset using Guid(90f956f096ee398458d0dce17cf53553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9b5c3af118210f23a0e11be7831f8b') in 0.096502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_9.asset
+  artifactKey: Guid(7cc6a458a1fb0614580de7e65c597f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_9.asset using Guid(7cc6a458a1fb0614580de7e65c597f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7783e7a25330271aae13c8a72a060065') in 0.205785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_0.asset
+  artifactKey: Guid(5200c64bf0728dc49a1856abdfe4fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_0.asset using Guid(5200c64bf0728dc49a1856abdfe4fabb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98dff8c06523d2562a1fe7fd2c5e013') in 0.121396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_13.asset
+  artifactKey: Guid(d37267d62cad278429d2f26b32fcf3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_13.asset using Guid(d37267d62cad278429d2f26b32fcf3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15e9d2a25b38769d3bf6311b01c0e22') in 0.153213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_10.asset
+  artifactKey: Guid(8903a1bb80515594ebc10ca469ac1748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_10.asset using Guid(8903a1bb80515594ebc10ca469ac1748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5f2ad1246b78000c41a4e1828c211c') in 0.092493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_8.asset
+  artifactKey: Guid(18831944a9982bd4ea05235f44494574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_8.asset using Guid(18831944a9982bd4ea05235f44494574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dd8b18daa1350007b0169dd931473b') in 0.089987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_17.asset
+  artifactKey: Guid(36ff591287e45e749a712f523585fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_17.asset using Guid(36ff591287e45e749a712f523585fccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff63516b2c66e9eca86b64ca0aad792') in 0.088157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_6.asset
+  artifactKey: Guid(e504e4aa1cb9e5541af4332160116f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_6.asset using Guid(e504e4aa1cb9e5541af4332160116f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c432f4100acd89c0873319bf60b69f78') in 0.097328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_8.asset
+  artifactKey: Guid(8557a02dc5ea3bc4ca038b989266b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_8.asset using Guid(8557a02dc5ea3bc4ca038b989266b94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b726930ccfbe27467f180610420be490') in 0.085944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_4.asset
+  artifactKey: Guid(ce3ad0f37c0c5c440a0cdaaecf05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_4.asset using Guid(ce3ad0f37c0c5c440a0cdaaecf05d3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5baafbfb51e56f41128462f88128d352') in 0.143612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_4.asset
+  artifactKey: Guid(f2fb8bed051fafe41b50884511a55a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_4.asset using Guid(f2fb8bed051fafe41b50884511a55a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df52742c566976431475c27e3a417b59') in 0.081023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_20.asset
+  artifactKey: Guid(cc661e48bcc059144b07f1c444b03ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_20.asset using Guid(cc661e48bcc059144b07f1c444b03ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b86a81509d416b7164f8ab400c5f4a') in 0.067455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_5.asset
+  artifactKey: Guid(2f0763cde40584d49aa0f2a716d361b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_5.asset using Guid(2f0763cde40584d49aa0f2a716d361b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df50426168e7a00afedef4ba04c235a') in 0.170903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_16.asset
+  artifactKey: Guid(1a66dd73320aaf9498b91ac52c38b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_16.asset using Guid(1a66dd73320aaf9498b91ac52c38b7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0286da6383d6986b49883ecc6c59fdb') in 0.045413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002982 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_18.asset
+  artifactKey: Guid(ec6f52591a5401643972b10d51a3cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_18.asset using Guid(ec6f52591a5401643972b10d51a3cfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c246742cbbea79b79bff8234b83ee5') in 0.080232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_11.asset
+  artifactKey: Guid(e5ac22f97c403a1418c6393931adc82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_11.asset using Guid(e5ac22f97c403a1418c6393931adc82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b76c62c34239011c67ac874f4a1ff81') in 0.127172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_7.asset
+  artifactKey: Guid(d0f624b4e8a23044288418c823a1936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_7.asset using Guid(d0f624b4e8a23044288418c823a1936e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706503305dbf017c13b03768d4681fdd') in 0.212137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005712 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_12.asset
+  artifactKey: Guid(f47cb5007f608a04ba676c3ce9a98124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_12.asset using Guid(f47cb5007f608a04ba676c3ce9a98124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6a1f93fbe49aa277ba310784ede900') in 0.114075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001301 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_7.asset
+  artifactKey: Guid(3d2a4919aa86f21479c7de71af14747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_7.asset using Guid(3d2a4919aa86f21479c7de71af14747c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f0bb325994481dd821465d7e636dcf') in 0.089380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_10.asset
+  artifactKey: Guid(dd2af6b36a53bee43b27df60c98110e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_10.asset using Guid(dd2af6b36a53bee43b27df60c98110e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27c98fbdd3fcad36a207cd73c405816') in 0.110038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_3.asset
+  artifactKey: Guid(bba5313e6c77d554084bd374a4b011de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_3.asset using Guid(bba5313e6c77d554084bd374a4b011de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f31d7577f2e0479de810bde8ec17ee') in 0.117514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_1.asset
+  artifactKey: Guid(6f23af9e6ec59204a9a02c3e71813f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_1.asset using Guid(6f23af9e6ec59204a9a02c3e71813f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008cd50fc44f7442045cfbb875eaa4b0') in 0.067303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_21.asset
+  artifactKey: Guid(2db44018a1887b24bab534d32b116a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_21.asset using Guid(2db44018a1887b24bab534d32b116a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1b238c4080ad3b6df2ad7732e486e0') in 0.086308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_9.asset
+  artifactKey: Guid(d878698ee8cc2f84f93b6e0dff0dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_9.asset using Guid(d878698ee8cc2f84f93b6e0dff0dddad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db81d8023f0f5db29226ee41c6f8986') in 0.073291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_19.asset
+  artifactKey: Guid(c817ae5f99c6f4d49a75f10b5b2afb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_19.asset using Guid(c817ae5f99c6f4d49a75f10b5b2afb13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d4ec8e0597a767d423dc95aec471e1') in 0.105848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_12.asset
+  artifactKey: Guid(425c50ba0e81e444ebb486ecd7ccc065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_12.asset using Guid(425c50ba0e81e444ebb486ecd7ccc065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e09bea426ee8830c5db4b25890ee96c') in 0.130441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_23.asset
+  artifactKey: Guid(74ae36e933fcb004e8ecf4e83600ac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_23.asset using Guid(74ae36e933fcb004e8ecf4e83600ac7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decca9042dff67be9e802949955b0116') in 0.117781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_23.asset
+  artifactKey: Guid(329bc0aaf011e3642a454dbc5c10abc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_23.asset using Guid(329bc0aaf011e3642a454dbc5c10abc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9896c07e573f2b3b441ca1335b880745') in 0.174173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_19.asset
+  artifactKey: Guid(af34677faba4ab94b80b7996cf74b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_19.asset using Guid(af34677faba4ab94b80b7996cf74b9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e55e5e37440b834fba8a21225b85c1') in 0.124299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_2.asset
+  artifactKey: Guid(a4f797d8fba34c24f89194bb40484562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_2.asset using Guid(a4f797d8fba34c24f89194bb40484562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03bcab069abcb08d1cad0e0d3640051') in 0.078014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_18.asset
+  artifactKey: Guid(caff6c2b9666dee498db430f66179eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_18.asset using Guid(caff6c2b9666dee498db430f66179eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ad354a38fef14c60053eca2f85998f') in 0.093341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_1.asset
+  artifactKey: Guid(e73419e5a6a7bc24c9d9e47b48dfe6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_1.asset using Guid(e73419e5a6a7bc24c9d9e47b48dfe6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b8027ec7f36b31797d5fcfa7ac9b04') in 0.086798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_16.asset
+  artifactKey: Guid(725442b455a7f59488c524b97a97b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_16.asset using Guid(725442b455a7f59488c524b97a97b6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b757dbabd22dd3966fa9b1f15cc86713') in 0.083667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_3.asset
+  artifactKey: Guid(b72ec45bd03ccb740b78264cbc24b50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_3.asset using Guid(b72ec45bd03ccb740b78264cbc24b50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd394c151d3ac8d6c5777dc6ce6e0ed58') in 0.090115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_6.asset
+  artifactKey: Guid(6a6e8eb220a74844b824aa00c7ba20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_6.asset using Guid(6a6e8eb220a74844b824aa00c7ba20c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd770eaea12b3d7ce89b9e2e28a59210a') in 0.178734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_15.asset
+  artifactKey: Guid(6b710c2b93331414db705a40d0852e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_15.asset using Guid(6b710c2b93331414db705a40d0852e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320f1c3f3e806d81988707fabfc8b636') in 0.100445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_14.asset
+  artifactKey: Guid(30721db4cbce41047bd204747a460def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_14.asset using Guid(30721db4cbce41047bd204747a460def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dffc306617a8498e372879e91413e41') in 0.100124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings.prefab
+  artifactKey: Guid(ffc67690b0873764a9f717d064c152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings.prefab using Guid(ffc67690b0873764a9f717d064c152fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7c2685f1b8363aff17e499411dbeed') in 15.936523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_21.asset
+  artifactKey: Guid(64374b3c02a39b543b898797dc9558f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_21.asset using Guid(64374b3c02a39b543b898797dc9558f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd0c1c5e2c73b73cc01a206ca4d3941') in 0.079835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_20.asset
+  artifactKey: Guid(2ff236ff28f314d4296cca0e73cbe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_20.asset using Guid(2ff236ff28f314d4296cca0e73cbe9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce92c34e5a5a34acd22641f4efa23b4') in 0.118632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain.prefab
+  artifactKey: Guid(576df66f3beb4d441ac3c49bdff8a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain.prefab using Guid(576df66f3beb4d441ac3c49bdff8a60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6df60a4a5897db019506a00bbc03ef') in 1.746246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_22.asset
+  artifactKey: Guid(c652f3b1d76b4bd4f9562d953fcfc156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_22.asset using Guid(c652f3b1d76b4bd4f9562d953fcfc156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1875bab2fe077e301ceee44a4a837fa') in 0.050420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_13.asset
+  artifactKey: Guid(4889e8041366c1d4e85fe0399e289c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Buildings/CLT_Buildings_13.asset using Guid(4889e8041366c1d4e85fe0399e289c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5707cc21ee4006d2bb269db27a9e4d91') in 0.088561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_2.asset
+  artifactKey: Guid(e1c98d863565c2741853aeaef01e6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_2.asset using Guid(e1c98d863565c2741853aeaef01e6545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e2b60779d69af75db30b0ceb98bb82') in 0.136727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_11.asset
+  artifactKey: Guid(7ea66d30cc42c6240a53df13113774b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_11.asset using Guid(7ea66d30cc42c6240a53df13113774b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf4bbd6e7aeb952880c6916b143a506') in 0.070392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_0.asset
+  artifactKey: Guid(6067f774a1964374e9f8e06f1773aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_0.asset using Guid(6067f774a1964374e9f8e06f1773aa80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3cd5681eb11959e4fedf4ad44e11920') in 0.052317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_17.asset
+  artifactKey: Guid(5639fa8379977c648b1ec85f797fbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CL_Town/Palettes/CLT_Terrain/CLT_Terrain_17.asset using Guid(5639fa8379977c648b1ec85f797fbacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28463dd4e72bdfac979a8d2d9830fd69') in 0.099450 seconds 
