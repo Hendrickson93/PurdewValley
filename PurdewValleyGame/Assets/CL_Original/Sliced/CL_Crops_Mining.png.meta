@@ -2969,7 +2969,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2998,7 +2998,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
@@ -3010,7 +3010,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -3022,7 +3022,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
@@ -3034,7 +3034,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -23527,8 +23527,8 @@ TextureImporter:
       CL_Crops_Mining_464: 21300928
       CL_Crops_Mining_727: 21301454
       CL_Crops_Mining_433: 21300866
+      CL_Crops_Mining_752: 21301504
       CL_Crops_Mining_240: 21300480
-      CL_Crops_Mining_263: 21300526
       CL_Crops_Mining_57: 21300114
       CL_Crops_Mining_193: 21300386
       CL_Crops_Mining_1: 21300002
@@ -23538,7 +23538,7 @@ TextureImporter:
       CL_Crops_Mining_519: 21301038
       CL_Crops_Mining_295: 21300590
       CL_Crops_Mining_83: 21300166
-      CL_Crops_Mining_752: 21301504
+      CL_Crops_Mining_263: 21300526
       CL_Crops_Mining_196: 21300392
       CL_Crops_Mining_472: 21300944
       CL_Crops_Mining_651: 21301302
@@ -23562,9 +23562,9 @@ TextureImporter:
       CL_Crops_Mining_54: 21300108
       CL_Crops_Mining_932: 21301864
       CL_Crops_Mining_671: 21301342
+      CL_Crops_Mining_966: 21301932
       CL_Crops_Mining_426: 21300852
       CL_Crops_Mining_826: 21301652
-      CL_Crops_Mining_966: 21301932
       CL_Crops_Mining_744: 21301488
       CL_Crops_Mining_821: 21301642
       CL_Crops_Mining_24: 21300048
@@ -23666,8 +23666,8 @@ TextureImporter:
       CL_Crops_Mining_879: 21301758
       CL_Crops_Mining_712: 21301424
       CL_Crops_Mining_488: 21300976
-      CL_Crops_Mining_665: 21301330
       CL_Crops_Mining_673: 21301346
+      CL_Crops_Mining_665: 21301330
       CL_Crops_Mining_384: 21300768
       CL_Crops_Mining_506: 21301012
       CL_Crops_Mining_529: 21301058
@@ -23722,18 +23722,19 @@ TextureImporter:
       CL_Crops_Mining_680: 21301360
       CL_Crops_Mining_953: 21301906
       CL_Crops_Mining_112: 21300224
-      CL_Crops_Mining_438: 21300876
       CL_Crops_Mining_814: 21301628
       CL_Crops_Mining_875: 21301750
       CL_Crops_Mining_326: 21300652
       CL_Crops_Mining_970: 21301940
-      CL_Crops_Mining_910: 21301820
+      CL_Crops_Mining_438: 21300876
       CL_Crops_Mining_889: 21301778
       CL_Crops_Mining_802: 21301604
       CL_Crops_Mining_296: 21300592
       CL_Crops_Mining_944: 21301888
+      CL_Crops_Mining_910: 21301820
       CL_Crops_Mining_511: 21301022
       CL_Crops_Mining_792: 21301584
+      CL_Crops_Mining_834: 21301668
       CL_Crops_Mining_369: 21300738
       CL_Crops_Mining_469: 21300938
       CL_Crops_Mining_544: 21301088
@@ -23745,7 +23746,6 @@ TextureImporter:
       CL_Crops_Mining_672: 21301344
       CL_Crops_Mining_510: 21301020
       CL_Crops_Mining_939: 21301878
-      CL_Crops_Mining_834: 21301668
       CL_Crops_Mining_179: 21300358
       CL_Crops_Mining_751: 21301502
       CL_Crops_Mining_819: 21301638
@@ -23779,16 +23779,16 @@ TextureImporter:
       CL_Crops_Mining_315: 21300630
       CL_Crops_Mining_93: 21300186
       CL_Crops_Mining_284: 21300568
-      CL_Crops_Mining_540: 21301080
-      CL_Crops_Mining_458: 21300916
       CL_Crops_Mining_871: 21301742
-      CL_Crops_Mining_586: 21301172
+      CL_Crops_Mining_458: 21300916
+      CL_Crops_Mining_540: 21301080
       CL_Crops_Mining_314: 21300628
       CL_Crops_Mining_594: 21301188
       CL_Crops_Mining_108: 21300216
-      CL_Crops_Mining_925: 21301850
+      CL_Crops_Mining_586: 21301172
       CL_Crops_Mining_726: 21301452
       CL_Crops_Mining_324: 21300648
+      CL_Crops_Mining_925: 21301850
       CL_Crops_Mining_303: 21300606
       CL_Crops_Mining_419: 21300838
       CL_Crops_Mining_386: 21300772
@@ -23813,11 +23813,11 @@ TextureImporter:
       CL_Crops_Mining_415: 21300830
       CL_Crops_Mining_339: 21300678
       CL_Crops_Mining_566: 21301132
-      CL_Crops_Mining_330: 21300660
-      CL_Crops_Mining_927: 21301854
       CL_Crops_Mining_616: 21301232
-      CL_Crops_Mining_697: 21301394
+      CL_Crops_Mining_927: 21301854
       CL_Crops_Mining_836: 21301672
+      CL_Crops_Mining_697: 21301394
+      CL_Crops_Mining_330: 21300660
       CL_Crops_Mining_289: 21300578
       CL_Crops_Mining_345: 21300690
       CL_Crops_Mining_171: 21300342
@@ -23963,20 +23963,20 @@ TextureImporter:
       CL_Crops_Mining_807: 21301614
       CL_Crops_Mining_394: 21300788
       CL_Crops_Mining_479: 21300958
+      CL_Crops_Mining_713: 21301426
       CL_Crops_Mining_699: 21301398
       CL_Crops_Mining_583: 21301166
       CL_Crops_Mining_632: 21301264
       CL_Crops_Mining_26: 21300052
       CL_Crops_Mining_716: 21301432
-      CL_Crops_Mining_713: 21301426
       CL_Crops_Mining_550: 21301100
       CL_Crops_Mining_715: 21301430
       CL_Crops_Mining_907: 21301814
       CL_Crops_Mining_442: 21300884
       CL_Crops_Mining_860: 21301720
       CL_Crops_Mining_293: 21300586
-      CL_Crops_Mining_96: 21300192
       CL_Crops_Mining_333: 21300666
+      CL_Crops_Mining_96: 21300192
       CL_Crops_Mining_211: 21300422
       CL_Crops_Mining_155: 21300310
       CL_Crops_Mining_265: 21300530
@@ -23991,13 +23991,13 @@ TextureImporter:
       CL_Crops_Mining_743: 21301486
       CL_Crops_Mining_364: 21300728
       CL_Crops_Mining_118: 21300236
-      CL_Crops_Mining_154: 21300308
-      CL_Crops_Mining_150: 21300300
-      CL_Crops_Mining_338: 21300676
       CL_Crops_Mining_960: 21301920
+      CL_Crops_Mining_150: 21300300
+      CL_Crops_Mining_154: 21300308
       CL_Crops_Mining_375: 21300750
-      CL_Crops_Mining_628: 21301256
+      CL_Crops_Mining_338: 21300676
       CL_Crops_Mining_262: 21300524
+      CL_Crops_Mining_628: 21301256
       CL_Crops_Mining_696: 21301392
       CL_Crops_Mining_633: 21301266
       CL_Crops_Mining_842: 21301684
@@ -24007,24 +24007,23 @@ TextureImporter:
       CL_Crops_Mining_831: 21301662
       CL_Crops_Mining_250: 21300500
       CL_Crops_Mining_448: 21300896
-      CL_Crops_Mining_589: 21301178
+      CL_Crops_Mining_954: 21301908
       CL_Crops_Mining_378: 21300756
       CL_Crops_Mining_557: 21301114
       CL_Crops_Mining_710: 21301420
       CL_Crops_Mining_447: 21300894
       CL_Crops_Mining_379: 21300758
-      CL_Crops_Mining_954: 21301908
-      CL_Crops_Mining_457: 21300914
+      CL_Crops_Mining_965: 21301930
+      CL_Crops_Mining_589: 21301178
       CL_Crops_Mining_49: 21300098
       CL_Crops_Mining_536: 21301072
-      CL_Crops_Mining_640: 21301280
+      CL_Crops_Mining_457: 21300914
       CL_Crops_Mining_233: 21300466
       CL_Crops_Mining_840: 21301680
       CL_Crops_Mining_408: 21300816
-      CL_Crops_Mining_247: 21300494
-      CL_Crops_Mining_437: 21300874
-      CL_Crops_Mining_965: 21301930
       CL_Crops_Mining_835: 21301670
+      CL_Crops_Mining_437: 21300874
+      CL_Crops_Mining_247: 21300494
       CL_Crops_Mining_938: 21301876
       CL_Crops_Mining_663: 21301326
       CL_Crops_Mining_971: 21301942
@@ -24033,6 +24032,7 @@ TextureImporter:
       CL_Crops_Mining_361: 21300722
       CL_Crops_Mining_455: 21300910
       CL_Crops_Mining_546: 21301092
+      CL_Crops_Mining_640: 21301280
       CL_Crops_Mining_294: 21300588
       CL_Crops_Mining_128: 21300256
       CL_Crops_Mining_687: 21301374
@@ -24055,10 +24055,10 @@ TextureImporter:
       CL_Crops_Mining_18: 21300036
       CL_Crops_Mining_6: 21300012
       CL_Crops_Mining_503: 21301006
-      CL_Crops_Mining_346: 21300692
+      CL_Crops_Mining_771: 21301542
       CL_Crops_Mining_585: 21301170
       CL_Crops_Mining_210: 21300420
-      CL_Crops_Mining_771: 21301542
+      CL_Crops_Mining_346: 21300692
       CL_Crops_Mining_19: 21300038
       CL_Crops_Mining_724: 21301448
       CL_Crops_Mining_820: 21301640
@@ -24084,9 +24084,9 @@ TextureImporter:
       CL_Crops_Mining_60: 21300120
       CL_Crops_Mining_207: 21300414
       CL_Crops_Mining_803: 21301606
-      CL_Crops_Mining_894: 21301788
-      CL_Crops_Mining_552: 21301104
       CL_Crops_Mining_916: 21301832
+      CL_Crops_Mining_552: 21301104
+      CL_Crops_Mining_894: 21301788
       CL_Crops_Mining_656: 21301312
       CL_Crops_Mining_509: 21301018
       CL_Crops_Mining_892: 21301784
