@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,3976 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CLT_Houses_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 928
+        width: 160
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1400f568d8cafb04793acd397cd7717e
+      internalID: 1396844716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 928
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6552e35300032941bff04756ff134b3
+      internalID: -1415453537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 928
+        width: 160
+        height: 164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9197295720665854b945e10a7ff90c29
+      internalID: 1603668727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_3
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 928
+        width: 160
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8c11d39a07a5549893d489cf563c08
+      internalID: -1776321002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_4
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 717
+        width: 182
+        height: 385
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c335a076aa3bfb54695f0da3a986b182
+      internalID: 1534663938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_5
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 1076
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ce9a9b9c36b984da627a7dd11a7fb3
+      internalID: 175953862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_6
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 1076
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055c269c159b8ad419f311a59fadbce7
+      internalID: -1346890923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 1072
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337b1b74fdc3c0e4287c36134c362828
+      internalID: 1144352102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_8
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1072
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9593c15c090fcb246afcee22db35aee1
+      internalID: 1428889462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_9
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1064
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040f6b32fcc5a044d87b23e56b2bfc1f
+      internalID: -1032203968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_10
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1064
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e2e46b75f35640a9ada401ca13d00
+      internalID: -878318056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_11
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1049
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bd2c3673d2ba7439ef3670f2dc056d
+      internalID: -1050652866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_12
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 1057
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69c59506f392a24ba39f2c9f349bad0
+      internalID: 984439850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_13
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1056
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c26cd857d430894483c59313afb394d
+      internalID: 1811781060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_14
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 1056
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a48b8f42f427097459f2fcad0a84f7ef
+      internalID: 157425324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1034
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cdd684751eb4b4d86108e50d5d2952
+      internalID: 1077033590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_16
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 1042
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c8c5c49663ea649b6f7bb7693fdcc2
+      internalID: 823895535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_17
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 966
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01f7079734acd346977e40ed9827b64
+      internalID: 1354781547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_18
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 966
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471823ff9b5893841a138f3008ac8d59
+      internalID: -1578385096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 963
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e246deec03de70498f833c2a5899a32
+      internalID: 964509466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 963
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e4ed6be653d944bbf198326420f80d
+      internalID: -855710282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_21
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 976
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d04f6f13901074399bc47465509bd5
+      internalID: -1672697976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_22
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 976
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9b091dd32d0e44f9498eca73564794
+      internalID: -1417453919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_23
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 920
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f39a74aa989c8043b0e8e92611799c7
+      internalID: -1563542268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_24
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 920
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bdc3eb7ba926a4b827d41acc83b832
+      internalID: -742833131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_25
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 938
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bcd20741805d1444822a16e97870f4c
+      internalID: 1778802603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_26
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 946
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b63aaaa91851d468a08670b2dea4b8
+      internalID: 1668319961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 717
+        width: 160
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c570134c99bef8d4a8fc11b7a42e0300
+      internalID: -765949259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 718
+        width: 160
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5678b6416f06904d9933b6bd4a7f443
+      internalID: -402823828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_29
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 912
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 763796adb2da5e74f885b3aa7dc0b380
+      internalID: -994718972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_30
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 912
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d0078317c33dc41972af072e6ce5e0
+      internalID: -70943924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_31
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 900
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed0b931779cdbc4b8b5da3374728f8d
+      internalID: 2029593622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_32
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 900
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8393a4eb0daf11e479b5c259267d35b8
+      internalID: -498208239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_33
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 707
+        width: 160
+        height: 183
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23f17fa8fe93ef4a97c811f720a9f35
+      internalID: 1074436091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_34
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 707
+        width: 160
+        height: 177
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff3a756f87adff49835b3d181f6d481
+      internalID: -2049575006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_35
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 731
+        width: 131
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ee7bfd62a70884983e00b51efab026
+      internalID: 1975556988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_36
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 824
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7819ada11bb9a944689973fd2438af90
+      internalID: 1441543766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_37
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 848
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392bbe034a97cdf4e94a5dc7698d6596
+      internalID: 1638041347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_38
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 819
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598cec3acd8421d42935c15108db9a36
+      internalID: -98668481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_39
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 819
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d85003d6a167264d91d8dcd934bd658
+      internalID: -1121844094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_40
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 768
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093b89f3150d0e04ba7ca45367a1d609
+      internalID: 328259736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_41
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 768
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a752767b8c438fb4a81f222793e1744b
+      internalID: 1022395617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_42
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 739
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad656eb07dc1574a8bc2c583d5b2898
+      internalID: -270473198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_43
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 739
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b747f69a7166b4c813b72de3dbe2b7
+      internalID: 486031448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_44
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 728
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e575e9b99208d4aa7a4231ae79d718
+      internalID: 1747654429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_45
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 728
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d64babc5dede01469d6c1471a3b39f3
+      internalID: 1577058257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 593
+        width: 16
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dacce64219e56344c8d526df885e55a2
+      internalID: 416789868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_47
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 641
+        width: 170
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67664f4c5e4a57f4a80064962e0575dc
+      internalID: -813955021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_48
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 577
+        width: 80
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed921d2082eb814092fc115b92b4a04
+      internalID: -1122213648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_49
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 688
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c5bda54104e8942af0a2a1b0fe051b
+      internalID: -181959100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_50
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 688
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf9f36c0c8d424cbe99050c51d4f28
+      internalID: -1261731780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_51
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 694
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf58fa8bea0585418f41e7f424c802d
+      internalID: -948696754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_52
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 688
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32b1d53d8d52e44594c4004d85fc7d1
+      internalID: -1356233217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_53
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 688
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e309069473f487141bb34b33b0c5e3fd
+      internalID: -1094977545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 475
+        height: 691
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91f7f39a62c4e4dafe7b3ca0fd3c50
+      internalID: 354211694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_55
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 593
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad816dae2250fa4aab1ee258c40fe8b
+      internalID: 418987617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_56
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 554
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac9cb166fa8e45d46bec63c890ca6e9c
+      internalID: -1179970374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_57
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 578
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb67f01157889cf49b75ce64e54339c8
+      internalID: -262648927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_58
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 554
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e57aca8bfc8a7419fdb57461f90101
+      internalID: 637437512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_59
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 578
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8f86c39f193134eac709d5f97f627d
+      internalID: -2091297173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_60
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 563
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103d6e04937fb648be9114d273e3b87
+      internalID: -1677124235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_61
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 514
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5011083382c7cf4a8de9a01dc0f9e7a
+      internalID: 2015811352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_62
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 546
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f055a5db35bd0e84eb3494694de61751
+      internalID: 283920450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_63
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 546
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9823dde35806e046a85c6896fab3dc6
+      internalID: 495102936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_64
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 514
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40dfd2b320f7f24a98e2f932203338e
+      internalID: -1011004848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_65
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 515
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8d6571c0fb344faf24531de705972
+      internalID: 1560460593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_66
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 490
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a9b728b807663409cda191a4859596
+      internalID: 1017117056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_67
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 490
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ad213e64ec3843b87fe1efb0dcb7f
+      internalID: -379799239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_68
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 498
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ba016021941054781e35db6af5b7ec
+      internalID: -747147503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_69
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 352
+        width: 80
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866e92677ccb60f4180047b2eb499880
+      internalID: 1805459172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_70
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 498
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a2d8ad9ab52dc419d292cae0bd4d78
+      internalID: -809512591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_71
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 464
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c0a2d5a86c3a346b02f97a9fc8135c
+      internalID: -905229495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_72
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 450
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72307122a0a29ae409478acb95946dbf
+      internalID: -1682336496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_73
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 417
+        width: 170
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdfca10b7666444b869c094475028a1
+      internalID: 596236555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_74
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 400
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb1dc6d36a7bbd40a8f62f546f3b5f2
+      internalID: -1293350012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_75
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 402
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8c8b235698fcd488465ce0fe3c7a4e
+      internalID: -1479821924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_76
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 426
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e371de36139ad441b0979466a26b2f3
+      internalID: 552771245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_77
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 386
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc668513a852a8543b91c76a5766f810
+      internalID: -1381920645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_78
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 426
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c070b176792b5d4794bac08aaf6c6e7
+      internalID: 1878422071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_79
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 369
+        width: 224
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0850027a10f5e34eb29dc8ef63beabb
+      internalID: 936542348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_80
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 352
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a097f6bd4e7d37a4cb16d9d599aca79f
+      internalID: 1319804147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_81
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 353
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d759ec2f75ae92469034a3c38c31ca0
+      internalID: 443975858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_82
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 353
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17ab8fcadae1da4fb87f3d9de24957e
+      internalID: 896711430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_83
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ccd22d8c1f54bb418c0dba2de1d1495
+      internalID: -969688471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_84
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 353
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17990c0d7aab06244a3d62e69646eec5
+      internalID: -1658559081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_85
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 362
+        width: 20
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c2a5bfa5b13a74e8f4363d0a6b47c0
+      internalID: -459590069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 321
+        width: 224
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb0524626ee1240821fd875b9570fd
+      internalID: 527852863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3194bbbc71009e44a9dcb159fe661bbc
+      internalID: -1573424419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_88
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 288
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b927b0bbf7c599e448d42131b1ca8ffc
+      internalID: -698806833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_89
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 312
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9b7fb64999f64e941698c3a9c4287
+      internalID: 1579997523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_90
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066bb7aca7621d3449b2eb43aa6f106d
+      internalID: -1846221020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_91
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bc3fa941058574196afb8e37b106e6
+      internalID: -1578489976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_92
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbc5f26ba457934491223fda7605b60
+      internalID: 696460692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_93
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d895b85b384a44c838bbee9ac5d980
+      internalID: -15000132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_94
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 240
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b46da298565bf4eb6e06ca8b3c96ce
+      internalID: -1317779045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_95
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 240
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88300ec164947404cb2a4a482da0c250
+      internalID: -97813072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_96
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 259
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d2ad925221ee946822d68d1658c29a
+      internalID: -1235391455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_97
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 259
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fddc7faf984f4a4daf766e1fbf94ab0
+      internalID: 1985143807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_98
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 259
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2c80063a58bd74d892c6613efb136c
+      internalID: 2005382115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_99
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 259
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910c66e1ace92464b90718e2029ee590
+      internalID: 243812568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_100
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 257
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d77692aae437244caf624a079ca08ce
+      internalID: -1709190828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_101
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 208
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737c6dc4fef53b64c96ed84f6b35155b
+      internalID: 353616542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_102
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 209
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2746feca89bcf74aa9df8e1d00ed2f6
+      internalID: -1008783874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_103
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 208
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6e7ca2bbcf42545a5793fb44cc6110
+      internalID: 1890890179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_104
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 225
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a530418df72a59e42b13bd093bfd50c2
+      internalID: -209563956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_105
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 201
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8845c0bc0a4e2de4c920c1a71b5a65de
+      internalID: 590932501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_106
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 225
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72d42c80dbae5d45b837747422a2c84
+      internalID: 1875195322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_107
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 201
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69ceb43d3a78d445911f3fe6a71f644
+      internalID: -248930607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_108
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 224
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 249769bbed6dddc4091871dfdc99a60d
+      internalID: 1317925401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_109
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 160
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4baa9e5ef3a519f48ad03239318b6552
+      internalID: 363129240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_110
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 176
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7523cfeac0432ff4da3b39e8f3713b0f
+      internalID: -7583071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_111
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 176
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6db7ff5cf43cc4418e96e16ec2b020b
+      internalID: 287127728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_112
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 144
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aef1a90cfc869fd49b7757cb89acbfe9
+      internalID: 1309577256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_113
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 161
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbb6aa61abcab94c918dc8bf3dac6df
+      internalID: 409494648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_114
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 137
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a051aeff82d0a54eb49fc86ed1557b6
+      internalID: 472981184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_115
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 161
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a7a4077a8bfaa468f9aef499147185
+      internalID: -510914564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_116
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 137
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a7a2cf9bc369843a3a95c7a7b223d3
+      internalID: 497761718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_117
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 160
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c86112b199c234c9830a8a6a44e998
+      internalID: 639567859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_118
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 114
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4cabb7a4cbccc46bea7d47a77949f0
+      internalID: -1126619346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_119
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 114
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead90d33f7bea5e4298f1649d6010853
+      internalID: 1071434806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_120
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b3e2ba55ebc8046ba2a4dbcdffa77d
+      internalID: 908521766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_121
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 128
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38898cb39b72e8145b6bbfff0790c578
+      internalID: -2064481817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_122
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 97
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5694fc5ba6734644299d4ad9ef9c9b47
+      internalID: 378553543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_123
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 97
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e01fb54bc8e9c4496996743545a449
+      internalID: 2120177901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_124
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 96
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e9122a1eb5e7d45821417bc206147b
+      internalID: -866592702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_125
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 102
+        width: 10
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683d513348b15b94a8e3e9f82c45d9d1
+      internalID: 1498551402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_126
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 102
+        width: 24
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bccf3cc65e37b64386d9698f9e8b39a
+      internalID: -1732969317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_127
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 99
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e99f939301d5244b349fcb117364ee
+      internalID: -88824109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_128
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b827cf2561e3b149b192f73bf4678f8
+      internalID: 1052703835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_129
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 64
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ecc5857f980d043b11563c3b8b7ad3
+      internalID: 996605780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_130
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 80
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a26d5d9cf740c1479c290614ec1d78b
+      internalID: 1221908268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_131
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 73
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63805f34aa129e74fbb3ea4685b6d554
+      internalID: 1723533479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_132
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 73
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dec6b89906e084dac802e8d4ee877b
+      internalID: 301797958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_133
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 68
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6839b3650a7470244b78c4517ffc4033
+      internalID: -23172275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_134
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 84
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab07c3a965c75a4bbb46bd717fc90cf
+      internalID: 316412743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_135
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 83
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c07b07510902446bc52448fdcf5b24
+      internalID: 1586169206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_136
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 68
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7baa652496fbc64384bbdf841000a45
+      internalID: -127642328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_137
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 70
+        width: 5
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990e85d61fac0854ba4d7f1fb4f833b1
+      internalID: 1809630344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_138
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 67
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f438d2e47cad46a43b6896ad51f42ac3
+      internalID: 1686062478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_139
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 82
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2a2ef74f92e4547ab211bbe42b9f42
+      internalID: -1563385874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_140
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 33
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ecc559650b4ac419724eaa58054813
+      internalID: 34702472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_141
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 33
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8123eea1ff9a8c4d9ef8db2e1a04c1d
+      internalID: 1799375285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_142
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 32
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc3f5068d08a7249b33eada764a1b1b
+      internalID: 239911486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_143
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 36
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616ddf24fd46505488e1dcc6c2911457
+      internalID: 1144014765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_144
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 36
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4098aa76fe029c040b57a73492333276
+      internalID: -651620150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_145
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 36
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6566592c5cb0a4889a7d2e5b1ef77e
+      internalID: 735091671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_146
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 16
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e673b83252f614aac401755b8320ba
+      internalID: -1822160101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_147
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 9
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0375721d53538f544a46b6561164e9de
+      internalID: -905771792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_148
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 9
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61cf725ab8ab78a4e92c38fab6f4623c
+      internalID: 1043496360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_149
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 4
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed5437625e50f42b6f865ac32d6108
+      internalID: -2146618609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_150
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 4
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff98a12331d2b3d4192af3b1ed4bb734
+      internalID: 1079875299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_151
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 4
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907caa1414864714aa240590d86dd055
+      internalID: -1819919429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_152
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 0
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77fdcc1dfb310b468ef67db01261283
+      internalID: 2064675631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_153
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 0
+        width: 47
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7e06baef350a84d9e6516b635551cc
+      internalID: 1715504708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_154
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 0
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd53e8950d501546b8dc5261a06aa69
+      internalID: -1571417907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_155
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7e2845abcb12e48b2daebae695d652
+      internalID: -1158938818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_156
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 261
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54905b3ae84754e43bf7a3cd0008f6fb
+      internalID: 1175139248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_157
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 208
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a955576b7dd07d14a9e8ce803c400ef8
+      internalID: 256976092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_158
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 208
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ea2e82f3364604aa8a0e4480caa197
+      internalID: -1811353125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_159
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 208
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ad2b926240424398755dbddd2d29e
+      internalID: 1831294051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_160
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 208
+        width: 16
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2114003d8e2345b418c05fa461672fdf
+      internalID: -209665207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_161
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 208
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bde7b3237aa788244876509fb7bf1e38
+      internalID: -66364457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_162
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 208
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f9ff924359372418db74af0c94170c
+      internalID: 1807866311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_163
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 217
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543da1a3fa8636a49a8febc5a86fad96
+      internalID: 815561081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_164
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 217
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19645324e2cc39443808c3bec46e6d87
+      internalID: -1647973880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_165
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 217
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3451b0150ef871d4cb9a764d10bd3cb3
+      internalID: -1163169606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_166
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 217
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8315026578560d54db692005d9b25fee
+      internalID: -127842421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_167
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 417
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d35723f3b7e4204ea5d6c1411b1c894
+      internalID: 787160655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_168
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 481
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503b68eb672a8ca4dbb48f865a7db5aa
+      internalID: 1573053787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_169
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 545
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1135650726cde8d499f2b44f6b18c2da
+      internalID: 537895828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_170
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 257
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e572fd5036f6fd34e9f689edb36948ba
+      internalID: 1873776584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_171
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 312
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f03749bf2b67b4baf64e6d3bb5cc37
+      internalID: 1889775977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_172
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 312
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070c34851ca2bd64e86ae2d1213d081c
+      internalID: 1261322885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 312
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0f20d6b1f2e944a9a21863de8b691
+      internalID: -1227487306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_174
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 208
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a98a6d88bc93a42b6e2f53e20f5712
+      internalID: -227885432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_175
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 192
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315f9a7c515d0ed4fa922ee9ccecd10b
+      internalID: 731535389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_176
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 128
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397c0eda1decb334ea8f849432748cb1
+      internalID: 442583651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_177
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 80
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb37f15c09a19bd40addf22fbd5a28eb
+      internalID: 357679197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_178
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 64
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597389f796aa66a4dbb8cec90397e65d
+      internalID: -434807343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_179
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 16
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bb1744eb016ae4289850b48ec3321f
+      internalID: 1998442422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_180
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83e5878875cfd6849b03f8e2156af589
+      internalID: -2022490013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_181
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 4
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d2e82e4edc47b4797300c8b7fdd9b3
+      internalID: -884982311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_182
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 36
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd9f1bdfe7c5304c9f3015be5d23767
+      internalID: 1991849776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_183
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 36
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146d47ec0f6a6384b874a184f2518a02
+      internalID: -1100883515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_184
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 353
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2f95f4b75a1c8408933406670599ff
+      internalID: 1550747537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_185
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 402
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeaa361155f0bab4f8d22da2eeb4fb43
+      internalID: -1877095258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_186
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 402
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b84b396d30aa3640a885a5f440470f6
+      internalID: -30979937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_187
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 402
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568d82a81dbbcf4409749bdd9f889cfa
+      internalID: 2018710617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_188
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 545
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d237c52b8b839ac49a0db3b84376361c
+      internalID: 505838512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +4095,196 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CLT_Houses_32: -498208239
+      CLT_Houses_100: -1709190828
+      CLT_Houses_132: 301797958
+      CLT_Houses_171: 1889775977
+      CLT_Houses_31: 2029593622
+      CLT_Houses_94: -1317779045
+      CLT_Houses_14: 157425324
+      CLT_Houses_165: -1163169606
+      CLT_Houses_93: -15000132
+      CLT_Houses_95: -97813072
+      CLT_Houses_129: 996605780
+      CLT_Houses_86: 527852863
+      CLT_Houses_84: -1658559081
+      CLT_Houses_143: 1144014765
+      CLT_Houses_1: -1415453537
+      CLT_Houses_149: -2146618609
+      CLT_Houses_173: 1261322885
+      CLT_Houses_17: 1354781547
+      CLT_Houses_125: 1498551402
+      CLT_Houses_8: 1428889462
+      CLT_Houses_33: 1074436091
+      CLT_Houses_160: -209665207
+      CLT_Houses_88: -698806833
+      CLT_Houses_146: -1822160101
+      CLT_Houses_178: 357679197
+      CLT_Houses_54: 354211694
+      CLT_Houses_154: -1571417907
+      CLT_Houses_5: 175953862
+      CLT_Houses_92: 696460692
+      CLT_Houses_43: 486031448
+      CLT_Houses_153: 1715504708
+      CLT_Houses_185: 1550747537
+      CLT_Houses_63: 495102936
+      CLT_Houses_56: -1179970374
+      CLT_Houses_119: 1071434806
+      CLT_Houses_90: -1846221020
+      CLT_Houses_107: -248930607
+      CLT_Houses_11: -1050652866
+      CLT_Houses_47: -813955021
+      CLT_Houses_20: -855710282
+      CLT_Houses_27: -765949259
+      CLT_Houses_18: -1578385096
+      CLT_Houses_150: 1079875299
+      CLT_Houses_134: 316412743
+      CLT_Houses_109: 363129240
+      CLT_Houses_158: -1811353125
+      CLT_Houses_108: 1317925401
+      CLT_Houses_4: 1534663938
+      CLT_Houses_53: -1094977545
+      CLT_Houses_120: 908521766
+      CLT_Houses_152: 2064675631
+      CLT_Houses_10: -878318056
+      CLT_Houses_26: 1668319961
+      CLT_Houses_142: 239911486
+      CLT_Houses_44: 1747654429
+      CLT_Houses_183: 1991849776
+      CLT_Houses_73: 596236555
+      CLT_Houses_163: 815561081
+      CLT_Houses_98: 2005382115
+      CLT_Houses_71: -905229495
+      CLT_Houses_16: 823895535
+      CLT_Houses_118: -1126619346
+      CLT_Houses_6: -1346890923
+      CLT_Houses_164: -1647973880
+      CLT_Houses_13: 1811781060
+      CLT_Houses_41: 1022395617
+      CLT_Houses_110: -7583071
+      CLT_Houses_97: 1985143807
+      CLT_Houses_102: -1008783874
+      CLT_Houses_157: 256976092
+      CLT_Houses_111: 287127728
+      CLT_Houses_49: -181959100
+      CLT_Houses_144: -651620150
+      CLT_Houses_83: -969688471
+      CLT_Houses_116: 497761718
+      CLT_Houses_29: -994718972
+      CLT_Houses_182: -884982311
+      CLT_Houses_169: 537895828
+      CLT_Houses_50: -1261731780
+      CLT_Houses_175: -227885432
+      CLT_Houses_85: -459590069
+      CLT_Houses_74: -1293350012
+      CLT_Houses_133: -23172275
+      CLT_Houses_147: -905771792
+      CLT_Houses_51: -948696754
+      CLT_Houses_24: -742833131
+      CLT_Houses_128: 1052703835
+      CLT_Houses_19: 964509466
+      CLT_Houses_186: -1877095258
+      CLT_Houses_22: -1417453919
+      CLT_Houses_162: 1807866311
+      CLT_Houses_91: -1578489976
+      CLT_Houses_34: -2049575006
+      CLT_Houses_25: 1778802603
+      CLT_Houses_176: 731535389
+      CLT_Houses_7: 1144352102
+      CLT_Houses_67: -379799239
+      CLT_Houses_101: 353616542
+      CLT_Houses_60: -1677124235
+      CLT_Houses_96: -1235391455
+      CLT_Houses_52: -1356233217
+      CLT_Houses_135: 1586169206
+      CLT_Houses_106: 1875195322
+      CLT_Houses_46: 416789868
+      CLT_Houses_124: -866592702
+      CLT_Houses_99: 243812568
+      CLT_Houses_58: 637437512
+      CLT_Houses_78: 1878422071
+      CLT_Houses_55: 418987617
+      CLT_Houses_161: -66364457
+      CLT_Houses_104: -209563956
+      CLT_Houses_45: 1577058257
+      CLT_Houses_80: 1319804147
+      CLT_Houses_123: 2120177901
+      CLT_Houses_72: -1682336496
+      CLT_Houses_2: 1603668727
+      CLT_Houses_137: 1809630344
+      CLT_Houses_103: 1890890179
+      CLT_Houses_141: 1799375285
+      CLT_Houses_76: 552771245
+      CLT_Houses_0: 1396844716
+      CLT_Houses_136: -127642328
+      CLT_Houses_59: -2091297173
+      CLT_Houses_145: 735091671
+      CLT_Houses_130: 1221908268
+      CLT_Houses_139: -1563385874
+      CLT_Houses_138: 1686062478
+      CLT_Houses_151: -1819919429
+      CLT_Houses_37: 1638041347
+      CLT_Houses_68: -747147503
+      CLT_Houses_38: -98668481
+      CLT_Houses_174: -1227487306
+      CLT_Houses_114: 472981184
+      CLT_Houses_77: -1381920645
+      CLT_Houses_75: -1479821924
+      CLT_Houses_179: -434807343
+      CLT_Houses_48: -1122213648
+      CLT_Houses_181: -2022490013
+      CLT_Houses_9: -1032203968
+      CLT_Houses_30: -70943924
+      CLT_Houses_112: 1309577256
+      CLT_Houses_159: 1831294051
+      CLT_Houses_188: 2018710617
+      CLT_Houses_28: -402823828
+      CLT_Houses_82: 896711430
+      CLT_Houses_168: 1573053787
+      CLT_Houses_184: -1100883515
+      CLT_Houses_180: 1998442422
+      CLT_Houses_89: 1579997523
+      CLT_Houses_126: -1732969317
+      CLT_Houses_113: 409494648
+      CLT_Houses_105: 590932501
+      CLT_Houses_12: 984439850
+      CLT_Houses_131: 1723533479
+      CLT_Houses_61: 2015811352
+      CLT_Houses_156: 1175139248
+      CLT_Houses_140: 34702472
+      CLT_Houses_87: -1573424419
+      CLT_Houses_66: 1017117056
+      CLT_Houses_21: -1672697976
+      CLT_Houses_115: -510914564
+      CLT_Houses_15: 1077033590
+      CLT_Houses_187: -30979937
+      CLT_Houses_23: -1563542268
+      CLT_Houses_127: -88824109
+      CLT_Houses_42: -270473198
+      CLT_Houses_62: 283920450
+      CLT_Houses_79: 936542348
+      CLT_Houses_64: -1011004848
+      CLT_Houses_155: -1158938818
+      CLT_Houses_81: 443975858
+      CLT_Houses_170: 1873776584
+      CLT_Houses_117: 639567859
+      CLT_Houses_3: -1776321002
+      CLT_Houses_166: -127842421
+      CLT_Houses_35: 1975556988
+      CLT_Houses_39: -1121844094
+      CLT_Houses_70: -809512591
+      CLT_Houses_148: 1043496360
+      CLT_Houses_36: 1441543766
+      CLT_Houses_65: 1560460593
+      CLT_Houses_69: 1805459172
+      CLT_Houses_121: -2064481817
+      CLT_Houses_40: 328259736
+      CLT_Houses_122: 378553543
+      CLT_Houses_177: 442583651
+      CLT_Houses_172: 935671006
+      CLT_Houses_167: 787160655
+      CLT_Houses_57: -262648927
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

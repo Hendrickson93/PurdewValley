@@ -38,16 +38,16 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4222656029
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: sidewalk
-    uniqueID: 4222656029
-    locked: 0
-  - name: Building - Cull
+  - name: Buildings
     uniqueID: 2636819173
     locked: 0
-  - name: Building - No Cull
+  - name: Objects
     uniqueID: 1349256453
     locked: 0
   - name: river
