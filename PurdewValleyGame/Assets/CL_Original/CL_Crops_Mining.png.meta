@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 66d449fc60e54d54a8a2bc939aaa016a
 TextureImporter:
-  fileIDToRecycleName: {}
+  internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,6 +23,8 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -32,20 +34,20 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -54,11 +56,16 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -69,7 +76,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +88,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -91,17 +100,7997 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CL_Crops_Mining_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 544
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea2a3e60165323479d2808d64851e54
+      internalID: -1161158574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 548
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5f0aa3d569233f4ba1b3f784b9593cf
+      internalID: 1193800229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 497
+        width: 29
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e76e9b826d333c4c91f113fb737dc27
+      internalID: -1636954623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 496
+        width: 37
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40f33227f250e242a29d76ca7bd8ee0
+      internalID: -2093505592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_4
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 496
+        width: 38
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a90e887080b874785dc07f9e29c48e
+      internalID: 1258808082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_5
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 496
+        width: 38
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f9036a0087f44e8f71ebce9d8a4f7
+      internalID: -806664873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_6
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 496
+        width: 35
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55673db9a09586744bdd2b0777fc185e
+      internalID: 1680158680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_7
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 530
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33fed6c6264d484a9663288a8c23b38
+      internalID: 2131960152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 528
+        width: 79
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f592740806eab2418e41b07f928b568
+      internalID: -1338886548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 544
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ee296de67272241947accfa04854b4
+      internalID: -501417204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 530
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a0825ea266db749a839bf2d3b2c324
+      internalID: -1750209990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 544
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f7c1c913c6b3c44af6f569bbf19c71
+      internalID: 1991923839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 548
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22be1f684d4bc084fbe225324206632a
+      internalID: -1189110095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_13
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 529
+        width: 11
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a85acda9f3bda4d8d46305a079c47b
+      internalID: -1460957728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 530
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1869092bfdca6e48b3533ecc7afdd75
+      internalID: 639504949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_15
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 530
+        width: 35
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f782115462059ef4a93b106cc2d3a1ae
+      internalID: -784251165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_16
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 544
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0f6710a11de9d4a9bb38121941920a
+      internalID: 120285777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_17
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 532
+        width: 6
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b98ef6761774d1438d04c5ceb3d5621
+      internalID: -1323185845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_18
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 532
+        width: 8
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d460638111dad7419602dde9606b724
+      internalID: -1960293458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_19
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 532
+        width: 9
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54f7919b67e1754781fe6a1b06d27f1
+      internalID: -1701435304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_20
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 532
+        width: 11
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d14f89af0b52e748a7bd33ac8e6d232
+      internalID: -1344428330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_21
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 532
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38697afc6e35f194bbda396e480227b3
+      internalID: 511004154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_22
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 532
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1014ccee96a3ad4c84b63a0d14d4456
+      internalID: -891694724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_23
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 532
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e2ea06cfb39cd4f81b713f2908d40e
+      internalID: -321693108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_24
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 530
+        width: 32
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeab445bb6da8674fbb398cb6781ec69
+      internalID: -482958760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 529
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff192cc8403de2459d1c84ef7e37612
+      internalID: 1581180624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_26
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 499
+        width: 15
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a0db787f743874284375d12c4435a4
+      internalID: 1904105904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 498
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8bbe2979ebf4141a5385beb6b1ce2a
+      internalID: -1673934023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_28
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 530
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2dfe6addd2f92419210c55a221b0f9
+      internalID: -602302526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_29
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 530
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729e0b01a89e0f84a81eb9a5440a2425
+      internalID: -323718897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_30
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 530
+        width: 11
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048634823db5e2e4dbbc93c6733a4c11
+      internalID: -693777931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_31
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 528
+        width: 9
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71f17d879993ea44b2745bf5ce432bd
+      internalID: -1510597270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_32
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 529
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d8b6aada8fb2648a4768f83ce856b2
+      internalID: -460802778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 499
+        width: 12
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0bb7e6d766c28459e781458e86b1a0
+      internalID: -1789705093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 466
+        width: 16
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080dd69fad056fb4195e73ca4ed8b03b
+      internalID: 1026727235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_35
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 512
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f18f4227dad444d828a335605d205b
+      internalID: -2144759209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_36
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 517
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197a2077f271d9a43b385ad90ed504dd
+      internalID: -1409953851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_37
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 516
+        width: 14
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd601d595b4d634886145baa22c3f0b
+      internalID: -923794516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_38
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 498
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a73a712eef6bf7445b8f41c562dbd79e
+      internalID: 1524052595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_39
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 512
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c72769b2e20e14da6d3965a6a9a3c6
+      internalID: 1151635385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_40
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 518
+        width: 8
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad9801376ec9264697a6a60c06b290c
+      internalID: 355878511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_41
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 500
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8de454b271aa0d4192e3ad5dda77713
+      internalID: -855532794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_42
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 499
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e1dc6d6ea64746b32589da155b415
+      internalID: 1092603661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_43
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 499
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dfe6358a26e8540a27a1217a18f7a6
+      internalID: 1898068981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_44
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 499
+        width: 14
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c9bcedde79c34eab8c736a403c6cd
+      internalID: -1185428715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_45
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 514
+        width: 14
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fd231f29275ea43b64168eeabb4cd2
+      internalID: 1630689775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_46
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 498
+        width: 19
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c4316c986854841856288e90faafd4
+      internalID: 1984409978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_47
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 512
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5916d8ae7b2c340ab6cf207a32a9af
+      internalID: 178837073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_48
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 500
+        width: 6
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8372584d5ab94499f1078fe751ee62
+      internalID: 2003651837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_49
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 500
+        width: 11
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c4681ca00570c42a3f950dfccf1e2b
+      internalID: 691206621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_50
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 500
+        width: 11
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24427bc9226c6a94aa7dab6ff54ef5e3
+      internalID: 544691541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_51
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 500
+        width: 11
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1192e194eeb477f4c9db506e6f98348c
+      internalID: -1514693383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_52
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 500
+        width: 13
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704703f0fd128e44ba8d9f9fa0806332
+      internalID: -424928359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_53
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 500
+        width: 13
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d14a10c91b37964b823d3508810343b
+      internalID: -931366193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_54
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 500
+        width: 12
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d75950c8583f6c42829efd27b4858ab
+      internalID: 405339024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_55
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 498
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cc6a3a62567e14c82cf37e0e09ab10
+      internalID: -414402628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_56
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 501
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6113508907ba58d43be33ac5229f3a5d
+      internalID: -444362685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_57
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 501
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a44e0c0e8909f43bdeab7a7c59bc82
+      internalID: 913298339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_58
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 501
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ac609981cf0fc4ebc67bd6150f9605
+      internalID: -282895772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_59
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 501
+        width: 11
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5f60bdbbb0a5b4da114e0f5dff3cad
+      internalID: 1091974368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_60
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 499
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5424bbeedf1991e4d86e502af216bc26
+      internalID: -951205406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_61
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 500
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7a603bd5d6a9b40a63da48ce7e8801
+      internalID: 2010935447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_62
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 500
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ddd56df8aaee442a88b00d242028a5
+      internalID: 1286091192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_63
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 498
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c41c681dd482e64eb7ecb58a2794797
+      internalID: 331947945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 480
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496ae51b06db4644ea3d61538d61ea0c
+      internalID: 762886954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_65
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 483
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e236ddea354f91f4ebd11753272cc661
+      internalID: 1720425089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 352
+        width: 38
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7f830f39397914db8be2c2f3d73a85
+      internalID: -1749265209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_67
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 352
+        width: 38
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aababb7293bfb94dae28e3310b577b9
+      internalID: 1460136063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_68
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 352
+        width: 38
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b3f0d8051680747bfe01480ad7dd4e
+      internalID: -1324123924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_69
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 352
+        width: 38
+        height: 139
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd76166fcd2c08847be35e4118f93320
+      internalID: 125848209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_70
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 480
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c092a4cdc5dd5804b816d4f542cf1d5f
+      internalID: 551328363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_71
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 486
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5f2078ea439ce46b012d21c94c2fbd
+      internalID: 36881752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_72
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 469
+        width: 13
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756d20480f9bae74cb61ce8e464ea8bf
+      internalID: 738859491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_73
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 483
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad1042c0a3b797d4abe3e046cc5fb3c2
+      internalID: 1528112582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_74
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 466
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 562313a3cdcb37f45bff85f767944b7a
+      internalID: -1047565814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_75
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 480
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4432c07f39971489c7b8e55cfc7aec
+      internalID: -1603781551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_76
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 484
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4082edf002d854b9fdbb0e7e9331c0
+      internalID: 746266382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_77
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 468
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab25dec5e9d8cdc46bbec99d0ede09c8
+      internalID: 1236243490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_78
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 468
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b1ca7ed7213c84e933597711ee0e3b
+      internalID: 1111389331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_79
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 468
+        width: 12
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c39616a95750f4db0cd53ba1a2aae7
+      internalID: -1609114944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_80
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 482
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ed4861382ef654caef9d76a22e8dc0
+      internalID: -214047601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_81
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 466
+        width: 176
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126ffc92bd190b4a98ec445519de3c9
+      internalID: -286526213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 465
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408b6ee1f3e2ef24da33e939c4a19128
+      internalID: 1252089718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 434
+        width: 19
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e398663854463e6429642dca55db5483
+      internalID: 677612996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_84
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 433
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b073d4d7d87db48aa6eb97a2f847c8
+      internalID: 1007213649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_85
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 470
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8de2cf660031974aa7bc34110f2b702
+      internalID: 1969698222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_86
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 470
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cf615bfb3bca343913c805589fecd5
+      internalID: 1647898875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_87
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 470
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb93f28d45a71fe4d8a7cb39f65f5678
+      internalID: 487172949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_88
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 466
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ed8d5c2369bc94caf93c5c7f015d3b
+      internalID: 1028566216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_89
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 468
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18ff23ef89057e42bb33660b0ea65b3
+      internalID: -49012687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_90
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 468
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda0d80c7c2f424fb0f5eb26e93323c
+      internalID: -634950752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_91
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 468
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3393414f028def4fb56178b83e7c2a9
+      internalID: -895661030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_92
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 465
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab845a56f88628418ba234ef31d1804
+      internalID: 1736061497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_93
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 464
+        width: 6
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715069863929c8e4284ae04c35f8ebeb
+      internalID: -546294591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_94
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 435
+        width: 12
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b01174e86d3ebc4eac9e72edc1aad34
+      internalID: -715611255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_95
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 435
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09cbe019c97ae54fbc205d663afc540
+      internalID: -18640480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_96
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 448
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529c4b5480efd6647b0910c7d4ffcf17
+      internalID: 784461495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_97
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 454
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24197ca7aa0e97a409cfcb7205a72d1a
+      internalID: 571402608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_98
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 451
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d97bb87ff128d469198a4411d3ccc3
+      internalID: -1979399711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_99
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 434
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff90f4a4cf787d146be30afbf990e8e1
+      internalID: 1409452782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_100
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 448
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aeced3b3b35f0e49b1638f9f04481e0
+      internalID: 1935427922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_101
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 452
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b2a44b57e6c2a49aeede879a7b579a
+      internalID: 2036441393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_102
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 455
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd27cc080ac4b8a4482b9efcc19e7fd0
+      internalID: 690154283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_103
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 437
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f856f5cfd1b46488970166eb67290a
+      internalID: 473039484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_104
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 437
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4086e96774da286449b743ac86c70d1f
+      internalID: 1540322319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_105
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 437
+        width: 13
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000ff6d8f2dbea44dba8a04f5aaf13ed
+      internalID: -1010718109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_106
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 450
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c033123472f60142be67a6f122f7647
+      internalID: 342980149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_107
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 434
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed6aabc87a083e44bb91ae2b2849ce8
+      internalID: 1127188466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_108
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 448
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad24499ad91895468bf7bbf11407852
+      internalID: -184816234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_109
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 452
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d4888e4db0264881590bf349c7d01
+      internalID: 661670925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_110
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 434
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f943fb59bf9f9d428c5ebd3e7ebd412
+      internalID: 575068538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_111
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c028ce44c5d61c742954529a214bcb21
+      internalID: 720118328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_112
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 438
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecdc19a940ea554fb7202f647aa6c6c
+      internalID: -98086826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_113
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 438
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048fc06ea245b234da9e8ce9702ac387
+      internalID: 1180038404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_114
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 438
+        width: 9
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2f7d6aaa8d0294588628ca634b83e4
+      internalID: 1870582445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_115
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 437
+        width: 10
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828f962f53866a24986da1a25c7b2182
+      internalID: 1573614869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_116
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 434
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5120fe3e7321e943ba6f2eb13b734ef
+      internalID: -870935630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_117
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 437
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 051550c140264fc4b85581b9d5ad62e5
+      internalID: -1848658274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_118
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 437
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a80c113e19e95f448bae6067b326f0a
+      internalID: 2059292984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_119
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 437
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f53ec5c66b73ea44aeeecaf3e7e101e
+      internalID: 1126649359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_120
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 433
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfeb07dd1379cc4f9ee13fc94b22783
+      internalID: 385875227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_121
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 436
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdbc4aea13599145b22b35435fbff35
+      internalID: 1684317313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_122
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 435
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5db9968449fdf041a9980b1c2f9e1cf
+      internalID: -1739892231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_123
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 434
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc58e7f3a919724eb2ece7333cb3ebc
+      internalID: -1236642069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_124
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 432
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f0753b37d61c64192f22bb88f09931
+      internalID: 1263652401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_125
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 432
+        width: 15
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44f2f4706a027a4cbb1c7056caf02db
+      internalID: -587459947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_126
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 432
+        width: 32
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d4451e5321ab24f8a95673933038a5
+      internalID: -262940854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_127
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 433
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165225bbdaeef5f408b88db0d0d8433f
+      internalID: -113735347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_128
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 416
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b3f3c386f885d46923289b091395ec
+      internalID: 2091800470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_129
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 420
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae74b69d7e6b4ed41bf2128f7e7b5bc0
+      internalID: -1793516201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_130
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 419
+        width: 12
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b74e48b7c30718a44993a41b35d053c7
+      internalID: -1703695164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_131
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 402
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb847ec742d4df141b2583cb3149ebcb
+      internalID: -1338602427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_132
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 416
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2005ba0a8e2973741ab155c20a41833c
+      internalID: 1936714703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_133
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 420
+        width: 10
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415f32def4e05ba4aaac051ca4554b72
+      internalID: -14449045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_134
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 404
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9086d7221c8c63d4a9e1ccd386c2dd57
+      internalID: -1909856434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_135
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 404
+        width: 13
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2c8f7c837d8e743880843fec4aad6a
+      internalID: -289020091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_136
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 404
+        width: 12
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6abff9015aa40446a34293ca1e94e4e
+      internalID: 2024854042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_137
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 418
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc732812bb8c9bf4d99265c78df38019
+      internalID: 916050813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_138
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 402
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d378b19fdc6bbc844949e005042de8e8
+      internalID: -1963455024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_139
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 416
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01a0c72d59bc554aafb5ad7b4172389
+      internalID: -232247875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_140
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 422
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37082247551577542a4dcee13aeb2151
+      internalID: 1019436539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_141
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 418
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28747373e572d90499ae985365a9eeeb
+      internalID: 741109599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_142
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 401
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4240d63a2167642967f91e9a52fc40
+      internalID: -1997719617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 401
+        width: 48
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09468434ed620a459b0775e1d773e7e
+      internalID: -1653329288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_144
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 402
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63799226fe1a7af4191061c938f4bfef
+      internalID: 1544216607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_145
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fbcfb353e8d98c4da39b968bc19b33f
+      internalID: -379615307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_146
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 405
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6b0feae646270418ea5ecda0beb7a5
+      internalID: -1915164363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_147
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 354
+        width: 27
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85e4358663aa6a46ab8eabd13b612f2
+      internalID: 1838902826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_148
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 353
+        width: 34
+        height: 67
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b037acff44f0b4f81634677b0b4721
+      internalID: 1382972949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 386
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe53ea87af33124a8a786362f9811cc
+      internalID: 1592495593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_150
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 405
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854fd484440af96418987123afa91bff
+      internalID: -1999417261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_151
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 405
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de3a26146499af4f861d1a5d9788a39
+      internalID: 231985467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_152
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 405
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab48a3f00b39f74abdbe36ab9482726
+      internalID: -70992714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_153
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 405
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530e7f595f23a0543986db05f4fcdfc9
+      internalID: 199685620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_154
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 400
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb6aa8cef84534e95fc5c9d57f92dd
+      internalID: -1210644354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_155
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 404
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafc8b53a5c14274f847f70835df61c3
+      internalID: -306185992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_156
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 404
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d589de7ca90d1448a756322ebe607f
+      internalID: 1473463684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_157
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 404
+        width: 12
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859198bb400810458fdcfdd3d3e9246
+      internalID: -44006365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_158
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 401
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5fe67289878b747b4026348251f115
+      internalID: -597209717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_159
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 402
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16b3525b102c3045849433d5ee7c135
+      internalID: -1548455060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_160
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 402
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ab96d03a16a204d8a5e5c49b298c21
+      internalID: -34210290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_161
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 401
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca697eeaea27ed48a2808c776d7014f
+      internalID: 1756934518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_162
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 384
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0777ed50b4302f947bf07872fea4e3cf
+      internalID: 1419815687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_163
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 389
+        width: 9
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7020d66c0c55d418ce4f3c32f9c4e2
+      internalID: -1464187919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_164
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 369
+        width: 31
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9bcd2ca0ca7e4449e5ca2f3743e46f
+      internalID: 685577641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_165
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 384
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7864b34325c5bb438fa98b8813539e8
+      internalID: 1580574949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_166
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 389
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f3399979d3a3344a74918a56bf4f1c
+      internalID: 1065491758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_167
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 387
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c014d79075fdc4aa684ddbc93b7717
+      internalID: -1316380606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_168
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 370
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4760c26535d394d40ae237ba787a7c97
+      internalID: -612418200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_169
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 384
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8118a6c852c744049b13ac58e82888de
+      internalID: 655775950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_170
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 387
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf5b3907b3bfe347909f71a3653a4eb
+      internalID: 1212418894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_171
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 368
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55174aa5066673c48a5f1526fc7a40cd
+      internalID: 465902750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_172
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cafdb65dad402c40b8c7b842037b693
+      internalID: 402518046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_173
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 387
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bffb13efd5850478456c9ef49b1730
+      internalID: 20234478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_174
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 370
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670e84628cb2968449d1bc9fbb85ac92
+      internalID: 2096866969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_175
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 355
+        width: 12
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00878d59c0ad9845bef093502f9ecb0
+      internalID: -1125486101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_176
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 355
+        width: 14
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aaa80f0b461108428c90b69d8deb007
+      internalID: -1253993657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_177
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 352
+        width: 19
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555313015cdb3c841bed6f368173a203
+      internalID: -1941148247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_178
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 373
+        width: 9
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f371302c5bb8ba74cbbf6d92e3512eae
+      internalID: -1655627916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_179
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 373
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90338e2450c966b4797ad09c655ff903
+      internalID: -1298463571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_180
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 373
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84c83e3aa764274bb629532be9eced6
+      internalID: 445690112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_181
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 373
+        width: 10
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb1333c8339e77f4aa0b2cca9bf50d8e
+      internalID: -1636017125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_182
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 373
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be14bb9cd73087479a0b0234394f831
+      internalID: -1196399304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_183
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 372
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afef715453d6bc149a3ab148eafb1d15
+      internalID: 185621220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_184
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 371
+        width: 15
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73c0ac2d7cf7874896fdefebdbae22c
+      internalID: -963280704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_185
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 368
+        width: 48
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e33e64ec9a06642ade2defb9f1a5a7
+      internalID: 364559409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_186
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 369
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6817412307429dd4899c9b4352e84cfa
+      internalID: -1008265981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_187
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 370
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad9272af1568bd43885ea88a7dac346
+      internalID: -574618661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_188
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 369
+        width: 13
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce22ac9cee80b542969d325d2e0ecf1
+      internalID: 1285836687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_189
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 369
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d796ee0dfb94441a399be61edfd44e
+      internalID: 96931437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_190
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 368
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eddff711cb53dd42885507efaf4308d
+      internalID: 63416088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_191
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 369
+        width: 13
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d525e2bc9abd4c4582b7d8b55a9f217
+      internalID: 197218039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_192
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 352
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcf3f92f23e3b341af8bec0f6db0cb1
+      internalID: 393298474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_193
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 358
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ff05093bb9af648aa2113d00cafe47
+      internalID: -1190629270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_194
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 355
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4367afae1522bf048af5db6f43f88357
+      internalID: -28271311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_195
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 338
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9666b2a191cf444f9617acd247e23dd
+      internalID: 1662791372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_196
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 352
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572cbf1bd8388114b8a10117d183e39b
+      internalID: 220298758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_197
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 357
+        width: 7
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44c6b6da0c0048449400f360c87f5b4
+      internalID: 1637869101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_198
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 342
+        width: 8
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23a8f5320f0b6c48b620a954385527f
+      internalID: -839607927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_199
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 357
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88d90a772ec33647bd3f25a131c786c
+      internalID: 1827272764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_200
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 338
+        width: 16
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db56d46d8bfd2374aaafdaab683698bc
+      internalID: -2111955619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_201
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 273
+        width: 42
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c2c780ed20e9343806b89b25caea26
+      internalID: -206059037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_202
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 273
+        width: 43
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb06c61c3450f8b48bdf7bcfa7ea06cb
+      internalID: 1690785343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_203
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 273
+        width: 43
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8db7e8521a44c4b8702bf326046b3e
+      internalID: 983589427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_204
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 273
+        width: 42
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252b715bd736224098b17a2b92c1a92
+      internalID: 878516183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_205
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 341
+        width: 6
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444d8240af72a8449a638ee5d45d691e
+      internalID: -819205154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_206
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 340
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e527c1b2826af0b44b6dcca1e1636ad8
+      internalID: 1056526628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_207
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 339
+        width: 15
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1e9bc55c4cb0e42aa690803563dac2
+      internalID: -337626448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_208
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 338
+        width: 16
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e4f56c469f52a4093dd4f5cece68ff
+      internalID: 1206788583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_209
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 338
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1c802c4074004c83ee9c0cbe7e1cf
+      internalID: -1936125908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_210
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 342
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba8e6551677e4e4ca1124e86a67fd72
+      internalID: -307515335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_211
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 342
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55709fc50c1547f4f9e91ecfaef85caf
+      internalID: 1028922416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_212
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 342
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ac6f9ef6a90eb49b0c2606d8935eb6
+      internalID: 1211441506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_213
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 342
+        width: 8
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6063d35db6de7b479cb90e6f8be60b4
+      internalID: 1860809810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_214
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 336
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955827947dd43bb46bd2b3c9d8b132c5
+      internalID: -1367586079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_215
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 305
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce246c95856156445912adc6e7a0d8cb
+      internalID: 2144540467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_216
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 324
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda5f86548219b44ea86bffccd5c4faa
+      internalID: -1496602056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_217
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 273
+        width: 34
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d0508902595334d94fac6c23938ff0
+      internalID: -71705766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_218
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 306
+        width: 16
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d46a3d16292c1940b55c60ac86ce9f6
+      internalID: -1448808400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_219
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 320
+        width: 26
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5c439e3a80a0e4294379a1c6b7d7d2
+      internalID: -2085828853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_220
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 323
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5ab3bc8053d35488fae980c7e7574a
+      internalID: -1123477574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_221
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 306
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723476fea40c4bf4a9b3622b6a4b9f4d
+      internalID: -384450531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_222
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 320
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d357271171bfdd44d95e5f973d0d0e7e
+      internalID: 1608743676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_223
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 324
+        width: 9
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2543b2d3b15c144b63a52794550dd9
+      internalID: -1845029391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_224
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 306
+        width: 31
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a66425bee79d1d43a3128b49e3c20e8
+      internalID: -1008109981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_225
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 274
+        width: 16
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc587ac4dbcaf84f91aaa860992aa37
+      internalID: -834209198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_226
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 309
+        width: 7
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1325a5f71c7e0d44ba840c109cd4484
+      internalID: 1676785020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_227
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 307
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c7440b21816c744ab13b33b62309b5
+      internalID: -1853663701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_228
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 306
+        width: 15
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f278552d0900c724b8a76e6e56aa8243
+      internalID: 583947849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_229
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 306
+        width: 15
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e9433417bd1644d8e2f91287fbebf1
+      internalID: 804324105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_230
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 306
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a5839f3a6269004fb37743508d0c9d9
+      internalID: -1125126022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_231
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 308
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c407ec2509c8c49b620809e9880e01
+      internalID: -729416764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_232
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 308
+        width: 11
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a5e1894a64acf4caf4163d79099d54
+      internalID: -216473631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_233
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 305
+        width: 29
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3915c3f085e53194980e3216f9de758f
+      internalID: 409269885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_234
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 305
+        width: 32
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f92ee9e8dfe6d4f9239e1530408576
+      internalID: -974197852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_235
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 305
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12af4ac5674e7ae41b07790bd54f7e9e
+      internalID: 1239522187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_236
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 276
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eacfe351ffea0b541bd5fcbb4f3287f9
+      internalID: 875053344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_237
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 276
+        width: 14
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c195bbfa40c1dfd4ba868fd295378043
+      internalID: 883057246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_238
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 274
+        width: 15
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b2e214e13bc0743beb8ae0644a2b1d
+      internalID: 326229137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_239
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 290
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daab85ae627ac1a4eb89523c50373537
+      internalID: -1132364932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_240
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 291
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7b0e0f7a2a2784fb8e228635c90fc1
+      internalID: 2127621329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_241
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 291
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febddf95d1a10db49b142d8cc8b59a2f
+      internalID: -687911009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_242
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 291
+        width: 9
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0c5f90e44341d4384c8e286881c17e
+      internalID: -1006703582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_243
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 291
+        width: 8
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e864d55400c1f46b4fd55f5141ab1d
+      internalID: 1449478629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_244
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 292
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33760c4685589f446b1b68cb2918e17e
+      internalID: 195358627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_245
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 289
+        width: 10
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10c4cb070c535d4b8debc8388fa6ca7
+      internalID: -893404260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_246
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 291
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c0b5e4822e62f4bbcf246f47a24f26
+      internalID: -501188295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_247
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 291
+        width: 7
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68287195ec8b63439b239672b01df87
+      internalID: -1860102586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_248
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 290
+        width: 9
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729dc1aa9852c4f4786cb50d009a4876
+      internalID: 115576809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_249
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 288
+        width: 64
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58a0e72c9568b84abbcf92bef73a16d
+      internalID: 800314503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_250
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 275
+        width: 6
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2cee3c926efed41bb18c3bc84de220
+      internalID: 2021821830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_251
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 274
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f26b9367f54b144a0c3acb93fcf2dd
+      internalID: 519376044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_252
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 275
+        width: 10
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f2a6ae6a6ad74408bab04506961472
+      internalID: 1573616750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_253
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 274
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c451db2e3883041a29600903bc105c
+      internalID: -2134404611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_254
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 273
+        width: 10
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9aeb78757c94614da50c1ade77e1be4
+      internalID: -217169994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_255
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 275
+        width: 8
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f270172785666774bb008d710af46632
+      internalID: 1821469908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_256
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 274
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efef87bcaa1524479d38ef872651304
+      internalID: -976978176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_257
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 273
+        width: 10
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7162affd3348b3843a5252c44de186a6
+      internalID: 148418571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_258
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 274
+        width: 12
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4df831144f6e3f4993710624dc8b251
+      internalID: 1062935103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_259
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 274
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a311ff58438164f8cd39f3cf59fa9a
+      internalID: -1413324429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_260
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 273
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0931216a7a909243a70d9636aa8a86a
+      internalID: 829272793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_261
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 273
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2887395f4f27e5447952bda5dca01e0c
+      internalID: -778453184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_262
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 273
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dfb7b84842c0b429115539a6732a52
+      internalID: 1086398088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_263
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 273
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeaac803585b6b42a693ed6e9d710b2
+      internalID: 1726542324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_264
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 240
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6c1e2c10b435f45969b4dba94abe19
+      internalID: -1597610064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_265
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 244
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04853c36aaa8c004e92b9f3c4a68c29d
+      internalID: -383715352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_266
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 176
+        width: 42
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5ba39afaf1984aa0f884e3838a9e9
+      internalID: 2041921174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_267
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 97
+        width: 42
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4770a9801a2f96c48b5fbdf411503980
+      internalID: 1485405684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_268
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 225
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12be30655410de40a802b6657138d1c
+      internalID: -158146614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_269
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 225
+        width: 32
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca9f43cf25e6d84aad7b6af5a27bc71
+      internalID: -1701341698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_270
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 177
+        width: 34
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3212da6d5c831564d91d6f314dd68c93
+      internalID: 1823474191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_271
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 224
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43dd113401ab042876cdbd10dcb754
+      internalID: -461946945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_272
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 230
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 507293c9d6e5bde48a9649c8c2c76334
+      internalID: -993456600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_273
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 177
+        width: 36
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac289febe38df914b888eaddb328f44a
+      internalID: 1541262752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_274
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 224
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a828e98596b3abe4ca9c120e102de718
+      internalID: 253022950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_275
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 225
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a0196f48a782e4baf46a9d42748318
+      internalID: -1840411246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_276
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 208
+        width: 32
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2e394719867864f99d4aa88e1106ad
+      internalID: 1681088951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_277
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 224
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d53fe48a9924a5448572db55238ecb3
+      internalID: -1066483645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_278
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 225
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facd840eeb1de744aa4da975132004ce
+      internalID: -936633530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_279
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 213
+        width: 32
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee40f66064e43c948bbfd4c23ab69057
+      internalID: -683884757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_280
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 178
+        width: 20
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c6dbd2f26fdf844a2fdb81d5ee90c1
+      internalID: -539617354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_281
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 181
+        width: 16
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be659d1101d53647a8320c564b7ed07
+      internalID: 455048877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_282
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 180
+        width: 22
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5deda7c0ebea014ebde1ee86d493ac4
+      internalID: -1485999447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_283
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 211
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b11512e05eac6d4c966b9bc640fea3b
+      internalID: -1380169694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_284
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 208
+        width: 31
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf3911e2314c634c9768ea72675b3dc
+      internalID: -1347929077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_285
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 209
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81cd7f3d4c57879428b4716a3134151a
+      internalID: 1176082149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_286
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 211
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94315b1068a51cb49a312138587d0e6e
+      internalID: 1563700131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_287
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 208
+        width: 31
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94475df18cfd8af4fa057dc326197724
+      internalID: -1675026916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_288
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 209
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3aa8ecc47695f74dbe148c85795f13f
+      internalID: 879296667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_289
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 180
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee7e192c4abfd1469c703c53a35b19d
+      internalID: 426735624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_290
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 180
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7d4b1664adb5f438d16c23d59582b5
+      internalID: -1012638584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_291
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 178
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bfc39b2f5c0b042833226f96d6448f
+      internalID: -1494702461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_292
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 182
+        width: 10
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c137485587f12394fa1dd27dafa9eaef
+      internalID: 1936368853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_293
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 178
+        width: 16
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb523dd6e6c20a4c87549c4189e09f1
+      internalID: -1261589271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_294
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf4fb8d951b9d8419ce8f33253c0793
+      internalID: 1319049148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_295
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 193
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c6aeb895c70924d8cffe563a163124
+      internalID: -1069046820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_296
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bacfa9ab308474f815a4246268248f
+      internalID: -825564934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_297
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 193
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349542e72f2cc7d4b82280c5d637ad6f
+      internalID: 1150394175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_298
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 177
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bd1ed15b4df7b4a8a6f4afe81e974e
+      internalID: 1522521611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_299
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 176
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a759f8fe5144c40a2a92e005a249c1
+      internalID: 230765778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_300
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 177
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267835c863fceeb43b9efebacffd6eb3
+      internalID: 952017247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_301
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d7f4c52043b9a429640390aa2c312b
+      internalID: -1473597088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_302
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 177
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a80623abe5aff8419a3811dd18eef99
+      internalID: 1641796436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_303
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 176
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3bf57346b5e664db8abe62eba6e959
+      internalID: -1705547616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_304
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 177
+        width: 32
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2930b0e8add733408b30ec8ecb7b5ac
+      internalID: 439651552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_305
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 160
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076a835cc86819c43863aeac09adb534
+      internalID: 1606412115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_306
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 96
+        width: 36
+        height: 77
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e86fc93710eee2c4cbaf63615c4b3b03
+      internalID: -883551538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_307
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 97
+        width: 26
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c414a079953a247b2a14b10218cf14
+      internalID: 1761673086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_308
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 161
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09ca1e4d781e0b4d91156df2e9d2d99
+      internalID: 966961608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_309
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 160
+        width: 31
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e460a76ef99eec4286952e4680954a7
+      internalID: 987753341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_310
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 163
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8cba6fd0664634988d356d73d38c81
+      internalID: -346005112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_311
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 161
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c579ca180133f8b4ca71cb79a091153f
+      internalID: -779312470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_312
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 160
+        width: 31
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23efd95f8190764e96035d735703fbe
+      internalID: 788217254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_313
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 163
+        width: 12
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c09e1b21dd71b408d54af04baea428
+      internalID: 1435071713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_314
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 144
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d660e7809fbb49a4aba8237c00ff9b10
+      internalID: -21031166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_315
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 148
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120dc430c4f9df946821021fe4207763
+      internalID: -1161003487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_316
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 97
+        width: 27
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980a16892cb00d84ca3f6e7cf872f77d
+      internalID: 152985396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_317
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 144
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574b67bdafd039048b19ce51bddcfc43
+      internalID: 1853954704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_318
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 149
+        width: 10
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77d3e7c86a0dff4fa194bb65692e7e0
+      internalID: 1332337041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_319
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 98
+        width: 22
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e69b7edf7cc3d4fb115634f3eb70e0
+      internalID: 2110385972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_320
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 12
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b6baeb16766e34caa7f28d15056f86
+      internalID: -944039691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_321
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 100
+        width: 16
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bddc45dd8472a24fbcf55f0a5988cc7
+      internalID: 2112820435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_322
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 98
+        width: 16
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f604c6dc881a76d4aa460788f37407b9
+      internalID: 624077694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_323
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 98
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d281709075bf64fab1a2bd03b4b08e
+      internalID: 1924415523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_324
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 101
+        width: 11
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e43db0376250bd4e9a0a3ce21c81334
+      internalID: 2026726808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_325
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 100
+        width: 16
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709090e11d03ca24caddd267baa08808
+      internalID: 985350397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_326
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 99
+        width: 16
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d425f503d6c451498f358de3e1e8142
+      internalID: -1878319984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_327
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1
+        width: 37
+        height: 70
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e80640f18bdeb34abf9005e0fb3a316
+      internalID: 2144909272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_328
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 48
+        height: 92
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab0550366c72c44eb8b7a7a00d781c9
+      internalID: 916255289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_329
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b3d44ecf732c04280f9cb9eaa3d65d
+      internalID: -28779575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_330
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 66
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25dfd21f6dba70b4295ae566ef44e266
+      internalID: -132911816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_331
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 70
+        width: 13
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40fdd1b59e50c2e45b8968a7c6e7c492
+      internalID: -1638524176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_332
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045cb79c56912c74281b0d86cfbcca03
+      internalID: -742560517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_333
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 68
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9275ea27c7ab44282d0bf6c0e4d013
+      internalID: 39114540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_334
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca5638328f363a44b25ea4632475414
+      internalID: 1712854589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_335
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 68
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef9d9d7ef0c2574eb8e113d5f2ade37
+      internalID: -1207976196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_336
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 68
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66704ff6bf2f3704cb29249c5f6d974b
+      internalID: -239441796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_337
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25cbc8c6114144942a924e4482fc18e7
+      internalID: -2123448687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_338
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 52
+        width: 10
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ebdc58b5f96064e9aaf9d84f569863
+      internalID: -1013308670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_339
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 50
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4310e7aabbf4cf74da6bad15535011e4
+      internalID: -323655789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_340
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 14
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a050c2464f04d444a6972748d73421f
+      internalID: 1710228324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_341
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 51
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2449ad7f4b3d704a85c4fa80f9e635d
+      internalID: 1819987076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_342
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 49
+        width: 14
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d01b37b2079e04d9a8e3a263038350
+      internalID: 987153678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_343
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 50
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2caece44d919a44eac994574922639e
+      internalID: 2061470000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_344
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 51
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9a5bc3f5c343f40a1cba3c7c328448
+      internalID: -1881308705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_345
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 34
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524b795c1ec256849bb1deeb90b7d30b
+      internalID: 638511980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_346
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 2
+        width: 16
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5c095e06c77b54d9c14ed79e39495a
+      internalID: 1583125845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_347
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 35
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a41deaeedd4f2428b8dc150763810a
+      internalID: 635806224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_348
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 34
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df7e586e4347d946956bc11553930e9
+      internalID: -414895395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_349
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 32
+        width: 46
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91983bd86befc53438ae411d916a6ca8
+      internalID: 1026198493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_350
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 4
+        width: 12
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4a9b060eac81142bbf985cffac4a31
+      internalID: 1404398221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_351
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 14
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a90ede08534544eb5d2ee6e1513c2a
+      internalID: 1654300466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_352
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3
+        width: 16
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e5b5626b482004596f272beaa01d56
+      internalID: -2071806006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_353
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 18
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef138259ad29a347b4c75a015370a3c
+      internalID: -1997533004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_354
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 19
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59a06241ebcb1a4cb996a2393bbcae7
+      internalID: 151444386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_355
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 17
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e482eb2fc1a5a99409153414878e5ada
+      internalID: 1717408178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_356
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 18
+        width: 13
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51c8fbb8b44074cbba43e612b19d17
+      internalID: -85897208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_357
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 19
+        width: 11
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3230b44c33e9d9b439694e8e38c9365a
+      internalID: 1432799240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_358
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 2
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8801055e354bf44a6600b1753a1c2d
+      internalID: -1395394673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_359
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 3
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a30e4c5e37bf04eadb70a72fa02378
+      internalID: -902631330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_360
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2
+        width: 15
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ee6a0d973c2de45ab20aadf5479375
+      internalID: 602955354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_Crops_Mining_361
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 46
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2201b5611522b7e44b06f46d5a19c093
+      internalID: -1009003462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: b3b34e57446f82a4e8df1b587e0e5b4e
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CL_Crops_Mining_9: -501417204
+      CL_Crops_Mining_293: -1261589271
+      CL_Crops_Mining_96: 784461495
+      CL_Crops_Mining_305: 1606412115
+      CL_Crops_Mining_333: 39114540
+      CL_Crops_Mining_211: 1028922416
+      CL_Crops_Mining_155: -306185992
+      CL_Crops_Mining_265: -383715352
+      CL_Crops_Mining_2: -1636954623
+      CL_Crops_Mining_91: -895661030
+      CL_Crops_Mining_340: 1710228324
+      CL_Crops_Mining_307: 1761673086
+      CL_Crops_Mining_4: 1258808082
+      CL_Crops_Mining_61: 2010935447
+      CL_Crops_Mining_132: 1936714703
+      CL_Crops_Mining_40: 355878511
+      CL_Crops_Mining_118: 2059292984
+      CL_Crops_Mining_154: -1210644354
+      CL_Crops_Mining_150: -1999417261
+      CL_Crops_Mining_338: -1013308670
+      CL_Crops_Mining_262: 1086398088
+      CL_Crops_Mining_240: 2127621329
+      CL_Crops_Mining_263: 1726542324
+      CL_Crops_Mining_57: 913298339
+      CL_Crops_Mining_140: 1019436539
+      CL_Crops_Mining_193: -1190629270
+      CL_Crops_Mining_1: 1193800229
+      CL_Crops_Mining_50: 544691541
+      CL_Crops_Mining_13: -1460957728
+      CL_Crops_Mining_250: 2021821830
+      CL_Crops_Mining_295: -1069046820
+      CL_Crops_Mining_83: 677612996
+      CL_Crops_Mining_49: 691206621
+      CL_Crops_Mining_196: 220298758
+      CL_Crops_Mining_233: 409269885
+      CL_Crops_Mining_247: -1860102586
+      CL_Crops_Mining_111: 720118328
+      CL_Crops_Mining_144: 1544216607
+      CL_Crops_Mining_323: 1924415523
+      CL_Crops_Mining_198: -839607927
+      CL_Crops_Mining_169: 655775950
+      CL_Crops_Mining_321: 2112820435
+      CL_Crops_Mining_267: 1485405684
+      CL_Crops_Mining_163: -1464187919
+      CL_Crops_Mining_361: -1009003462
+      CL_Crops_Mining_227: -1853663701
+      CL_Crops_Mining_294: 1319049148
+      CL_Crops_Mining_128: 2091800470
+      CL_Crops_Mining_337: -2123448687
+      CL_Crops_Mining_166: 1065491758
+      CL_Crops_Mining_219: -2085828853
+      CL_Crops_Mining_54: 405339024
+      CL_Crops_Mining_252: 1573616750
+      CL_Crops_Mining_280: -539617354
+      CL_Crops_Mining_109: 661670925
+      CL_Crops_Mining_317: 1853954704
+      CL_Crops_Mining_63: 331947945
+      CL_Crops_Mining_229: 804324105
+      CL_Crops_Mining_24: -482958760
+      CL_Crops_Mining_178: -1655627916
+      CL_Crops_Mining_18: -1960293458
+      CL_Crops_Mining_6: 1680158680
+      CL_Crops_Mining_162: 1419815687
+      CL_Crops_Mining_346: 1583125845
+      CL_Crops_Mining_78: 1111389331
+      CL_Crops_Mining_210: -307515335
+      CL_Crops_Mining_71: 36881752
+      CL_Crops_Mining_19: -1701435304
+      CL_Crops_Mining_121: 1684317313
+      CL_Crops_Mining_182: -1196399304
+      CL_Crops_Mining_246: -501188295
+      CL_Crops_Mining_273: 1541262752
+      CL_Crops_Mining_42: 1092603661
+      CL_Crops_Mining_46: 1984409978
+      CL_Crops_Mining_134: -1909856434
+      CL_Crops_Mining_258: 1062935103
+      CL_Crops_Mining_298: 1522521611
+      CL_Crops_Mining_320: -944039691
+      CL_Crops_Mining_191: 197218039
+      CL_Crops_Mining_60: -951205406
+      CL_Crops_Mining_207: -337626448
+      CL_Crops_Mining_103: 473039484
+      CL_Crops_Mining_156: 1473463684
+      CL_Crops_Mining_220: -1123477574
+      CL_Crops_Mining_309: 987753341
+      CL_Crops_Mining_28: -602302526
+      CL_Crops_Mining_215: 2144540467
+      CL_Crops_Mining_100: 1935427922
+      CL_Crops_Mining_230: -1125126022
+      CL_Crops_Mining_101: 2036441393
+      CL_Crops_Mining_131: -1338602427
+      CL_Crops_Mining_51: -1514693383
+      CL_Crops_Mining_153: 199685620
+      CL_Crops_Mining_234: -974197852
+      CL_Crops_Mining_58: -282895772
+      CL_Crops_Mining_99: 1409452782
+      CL_Crops_Mining_102: 690154283
+      CL_Crops_Mining_322: 624077694
+      CL_Crops_Mining_81: -286526213
+      CL_Crops_Mining_136: 2024854042
+      CL_Crops_Mining_251: 519376044
+      CL_Crops_Mining_292: 1936368853
+      CL_Crops_Mining_271: -461946945
+      CL_Crops_Mining_88: 1028566216
+      CL_Crops_Mining_130: -1703695164
+      CL_Crops_Mining_213: 1860809810
+      CL_Crops_Mining_161: 1756934518
+      CL_Crops_Mining_165: 1580574949
+      CL_Crops_Mining_231: -729416764
+      CL_Crops_Mining_149: 1592495593
+      CL_Crops_Mining_189: 96931437
+      CL_Crops_Mining_310: -346005112
+      CL_Crops_Mining_313: 1435071713
+      CL_Crops_Mining_137: 916050813
+      CL_Crops_Mining_73: 1528112582
+      CL_Crops_Mining_176: -1253993657
+      CL_Crops_Mining_12: -1189110095
+      CL_Crops_Mining_115: 1573614869
+      CL_Crops_Mining_290: -1012638584
+      CL_Crops_Mining_87: 487172949
+      CL_Crops_Mining_300: 952017247
+      CL_Crops_Mining_206: 1056526628
+      CL_Crops_Mining_316: 152985396
+      CL_Crops_Mining_341: 1819987076
+      CL_Crops_Mining_120: 385875227
+      CL_Crops_Mining_239: -1132364932
+      CL_Crops_Mining_11: 1991923839
+      CL_Crops_Mining_217: -71705766
+      CL_Crops_Mining_10: -1750209990
+      CL_Crops_Mining_275: -1840411246
+      CL_Crops_Mining_358: -1395394673
+      CL_Crops_Mining_7: 2131960152
+      CL_Crops_Mining_126: -262940854
+      CL_Crops_Mining_241: -687911009
+      CL_Crops_Mining_205: -819205154
+      CL_Crops_Mining_36: -1409953851
+      CL_Crops_Mining_105: -1010718109
+      CL_Crops_Mining_232: -216473631
+      CL_Crops_Mining_30: -693777931
+      CL_Crops_Mining_311: -779312470
+      CL_Crops_Mining_177: -1941148247
+      CL_Crops_Mining_39: 1151635385
+      CL_Crops_Mining_82: 1252089718
+      CL_Crops_Mining_122: -1739892231
+      CL_Crops_Mining_208: 1206788583
+      CL_Crops_Mining_173: 20234478
+      CL_Crops_Mining_41: -855532794
+      CL_Crops_Mining_214: -1367586079
+      CL_Crops_Mining_86: 1647898875
+      CL_Crops_Mining_270: 1823474191
+      CL_Crops_Mining_127: -113735347
+      CL_Crops_Mining_228: 583947849
+      CL_Crops_Mining_301: -1473597088
+      CL_Crops_Mining_5: -806664873
+      CL_Crops_Mining_110: 575068538
+      CL_Crops_Mining_16: 120285777
+      CL_Crops_Mining_74: -1047565814
+      CL_Crops_Mining_325: 985350397
+      CL_Crops_Mining_8: -1338886548
+      CL_Crops_Mining_180: 445690112
+      CL_Crops_Mining_257: 148418571
+      CL_Crops_Mining_141: 741109599
+      CL_Crops_Mining_255: 1821469908
+      CL_Crops_Mining_327: 2144909272
+      CL_Crops_Mining_222: 1608743676
+      CL_Crops_Mining_352: -2071806006
+      CL_Crops_Mining_360: 602955354
+      CL_Crops_Mining_77: 1236243490
+      CL_Crops_Mining_201: -206059037
+      CL_Crops_Mining_53: -931366193
+      CL_Crops_Mining_254: -217169994
+      CL_Crops_Mining_304: 439651552
+      CL_Crops_Mining_76: 746266382
+      CL_Crops_Mining_209: -1936125908
+      CL_Crops_Mining_348: -414895395
+      CL_Crops_Mining_281: 455048877
+      CL_Crops_Mining_297: 1150394175
+      CL_Crops_Mining_335: -1207976196
+      CL_Crops_Mining_112: -98086826
+      CL_Crops_Mining_285: 1176082149
+      CL_Crops_Mining_326: -1878319984
+      CL_Crops_Mining_253: -2134404611
+      CL_Crops_Mining_45: 1630689775
+      CL_Crops_Mining_296: -825564934
+      CL_Crops_Mining_306: -883551538
+      CL_Crops_Mining_79: -1609114944
+      CL_Crops_Mining_117: -1848658274
+      CL_Crops_Mining_114: 1870582445
+      CL_Crops_Mining_331: -1638524176
+      CL_Crops_Mining_179: -1298463571
+      CL_Crops_Mining_90: -634950752
+      CL_Crops_Mining_48: 2003651837
+      CL_Crops_Mining_200: -2111955619
+      CL_Crops_Mining_59: 1091974368
+      CL_Crops_Mining_158: -597209717
+      CL_Crops_Mining_342: 987153678
+      CL_Crops_Mining_116: -870935630
+      CL_Crops_Mining_277: -1066483645
+      CL_Crops_Mining_359: -902631330
+      CL_Crops_Mining_181: -1636017125
+      CL_Crops_Mining_256: -976978176
+      CL_Crops_Mining_106: 342980149
+      CL_Crops_Mining_104: 1540322319
+      CL_Crops_Mining_38: 1524052595
+      CL_Crops_Mining_135: -289020091
+      CL_Crops_Mining_264: -1597610064
+      CL_Crops_Mining_32: -460802778
+      CL_Crops_Mining_43: 1898068981
+      CL_Crops_Mining_259: -1413324429
+      CL_Crops_Mining_56: -444362685
+      CL_Crops_Mining_168: -612418200
+      CL_Crops_Mining_243: 1449478629
+      CL_Crops_Mining_204: 878516183
+      CL_Crops_Mining_288: 879296667
+      CL_Crops_Mining_107: 1127188466
+      CL_Crops_Mining_244: 195358627
+      CL_Crops_Mining_351: 1654300466
+      CL_Crops_Mining_315: -1161003487
+      CL_Crops_Mining_93: -546294591
+      CL_Crops_Mining_284: -1347929077
+      CL_Crops_Mining_97: 571402608
+      CL_Crops_Mining_152: -70992714
+      CL_Crops_Mining_314: -21031166
+      CL_Crops_Mining_108: -184816234
+      CL_Crops_Mining_324: 2026726808
+      CL_Crops_Mining_303: -1705547616
+      CL_Crops_Mining_197: 1637869101
+      CL_Crops_Mining_249: 800314503
+      CL_Crops_Mining_64: 762886954
+      CL_Crops_Mining_286: 1563700131
+      CL_Crops_Mining_199: 1827272764
+      CL_Crops_Mining_221: -384450531
+      CL_Crops_Mining_187: -574618661
+      CL_Crops_Mining_224: -1008109981
+      CL_Crops_Mining_339: -323655789
+      CL_Crops_Mining_21: 511004154
+      CL_Crops_Mining_330: -132911816
+      CL_Crops_Mining_92: 1736061497
+      CL_Crops_Mining_289: 426735624
+      CL_Crops_Mining_345: 638511980
+      CL_Crops_Mining_171: 465902750
+      CL_Crops_Mining_223: -1845029391
+      CL_Crops_Mining_343: 2061470000
+      CL_Crops_Mining_129: -1793516201
+      CL_Crops_Mining_216: -1496602056
+      CL_Crops_Mining_20: -1344428330
+      CL_Crops_Mining_72: 738859491
+      CL_Crops_Mining_237: 883057246
+      CL_Crops_Mining_347: 635806224
+      CL_Crops_Mining_190: 63416088
+      CL_Crops_Mining_242: -1006703582
+      CL_Crops_Mining_23: -321693108
+      CL_Crops_Mining_22: -891694724
+      CL_Crops_Mining_133: -14449045
+      CL_Crops_Mining_34: 1026727235
+      CL_Crops_Mining_84: 1007213649
+      CL_Crops_Mining_68: -1324123924
+      CL_Crops_Mining_15: -784251165
+      CL_Crops_Mining_27: -1673934023
+      CL_Crops_Mining_188: 1285836687
+      CL_Crops_Mining_167: -1316380606
+      CL_Crops_Mining_29: -323718897
+      CL_Crops_Mining_44: -1185428715
+      CL_Crops_Mining_80: -214047601
+      CL_Crops_Mining_336: -239441796
+      CL_Crops_Mining_95: -18640480
+      CL_Crops_Mining_159: -1548455060
+      CL_Crops_Mining_353: -1997533004
+      CL_Crops_Mining_332: -742560517
+      CL_Crops_Mining_226: 1676785020
+      CL_Crops_Mining_33: -1789705093
+      CL_Crops_Mining_212: 1211441506
+      CL_Crops_Mining_147: 1838902826
+      CL_Crops_Mining_37: -923794516
+      CL_Crops_Mining_185: 364559409
+      CL_Crops_Mining_194: -28271311
+      CL_Crops_Mining_334: 1712854589
+      CL_Crops_Mining_142: -1997719617
+      CL_Crops_Mining_119: 1126649359
+      CL_Crops_Mining_62: 1286091192
+      CL_Crops_Mining_350: 1404398221
+      CL_Crops_Mining_272: -993456600
+      CL_Crops_Mining_357: 1432799240
+      CL_Crops_Mining_0: -1161158574
+      CL_Crops_Mining_170: 1212418894
+      CL_Crops_Mining_175: -1125486101
+      CL_Crops_Mining_98: -1979399711
+      CL_Crops_Mining_55: -414402628
+      CL_Crops_Mining_202: 1690785343
+      CL_Crops_Mining_236: 875053344
+      CL_Crops_Mining_308: 966961608
+      CL_Crops_Mining_31: -1510597270
+      CL_Crops_Mining_123: -1236642069
+      CL_Crops_Mining_35: -2144759209
+      CL_Crops_Mining_89: -49012687
+      CL_Crops_Mining_67: 1460136063
+      CL_Crops_Mining_356: -85897208
+      CL_Crops_Mining_287: -1675026916
+      CL_Crops_Mining_349: 1026198493
+      CL_Crops_Mining_302: 1641796436
+      CL_Crops_Mining_261: -778453184
+      CL_Crops_Mining_245: -893404260
+      CL_Crops_Mining_14: 639504949
+      CL_Crops_Mining_138: -1963455024
+      CL_Crops_Mining_148: 1382972949
+      CL_Crops_Mining_291: -1494702461
+      CL_Crops_Mining_192: 393298474
+      CL_Crops_Mining_52: -424928359
+      CL_Crops_Mining_282: -1485999447
+      CL_Crops_Mining_312: 788217254
+      CL_Crops_Mining_283: -1380169694
+      CL_Crops_Mining_94: -715611255
+      CL_Crops_Mining_113: 1180038404
+      CL_Crops_Mining_318: 1332337041
+      CL_Crops_Mining_319: 2110385972
+      CL_Crops_Mining_278: -936633530
+      CL_Crops_Mining_266: 2041921174
+      CL_Crops_Mining_172: 402518046
+      CL_Crops_Mining_151: 231985467
+      CL_Crops_Mining_203: 983589427
+      CL_Crops_Mining_69: 125848209
+      CL_Crops_Mining_186: -1008265981
+      CL_Crops_Mining_174: 2096866969
+      CL_Crops_Mining_248: 115576809
+      CL_Crops_Mining_160: -34210290
+      CL_Crops_Mining_355: 1717408178
+      CL_Crops_Mining_274: 253022950
+      CL_Crops_Mining_47: 178837073
+      CL_Crops_Mining_17: -1323185845
+      CL_Crops_Mining_143: -1653329288
+      CL_Crops_Mining_279: -683884757
+      CL_Crops_Mining_235: 1239522187
+      CL_Crops_Mining_146: -1915164363
+      CL_Crops_Mining_139: -232247875
+      CL_Crops_Mining_184: -963280704
+      CL_Crops_Mining_85: 1969698222
+      CL_Crops_Mining_195: 1662791372
+      CL_Crops_Mining_70: 551328363
+      CL_Crops_Mining_276: 1681088951
+      CL_Crops_Mining_183: 185621220
+      CL_Crops_Mining_328: 916255289
+      CL_Crops_Mining_299: 230765778
+      CL_Crops_Mining_225: -834209198
+      CL_Crops_Mining_3: -2093505592
+      CL_Crops_Mining_25: 1581180624
+      CL_Crops_Mining_329: -28779575
+      CL_Crops_Mining_238: 326229137
+      CL_Crops_Mining_66: -1749265209
+      CL_Crops_Mining_268: -158146614
+      CL_Crops_Mining_164: 685577641
+      CL_Crops_Mining_125: -587459947
+      CL_Crops_Mining_124: 1263652401
+      CL_Crops_Mining_269: -1701341698
+      CL_Crops_Mining_145: -379615307
+      CL_Crops_Mining_218: -1448808400
+      CL_Crops_Mining_157: -44006365
+      CL_Crops_Mining_354: 151444386
+      CL_Crops_Mining_260: 829272793
+      CL_Crops_Mining_65: 1720425089
+      CL_Crops_Mining_344: -1881308705
+      CL_Crops_Mining_75: -1603781551
+      CL_Crops_Mining_26: 1904105904
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
