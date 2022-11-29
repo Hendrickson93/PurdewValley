@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMap.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/TechShopInterior.unity
+    path: Assets/Scenes/Library.unity
     guid: 969d45978c499bc4681b8ddc407dbebb
+  - enabled: 1
+    path: Assets/Scenes/GeneralStore.unity
+    guid: 72de2be92b85e1f43bb7c20716d142c7
+  - enabled: 1
+    path: Assets/Scenes/TechShop.unity
+    guid: f32f1204496fc504c9830ab9f761b639
+  - enabled: 1
+    path: Assets/Scenes/HomeMap.unity
+    guid: 821c98a7ef8450447bcc5536cfae7085
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 60846d5d397edf34da1cc03e1808183e
   m_configObjects: {}

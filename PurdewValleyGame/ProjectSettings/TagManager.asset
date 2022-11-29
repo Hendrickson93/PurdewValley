@@ -44,12 +44,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Buildings
+  - name: Foreground
     uniqueID: 2636819173
-    locked: 0
-  - name: Objects
-    uniqueID: 1349256453
-    locked: 0
-  - name: river
-    uniqueID: 3155734867
     locked: 0
