@@ -2238,27 +2238,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Houses_101
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 208
-        width: 144
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 737c6dc4fef53b64c96ed84f6b35155b
-      internalID: 353616542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: CLT_Houses_102
       rect:
         serializedVersion: 2
@@ -2401,27 +2380,6 @@ TextureImporter:
       bones: []
       spriteID: 249769bbed6dddc4091871dfdc99a60d
       internalID: 1317925401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: CLT_Houses_109
-      rect:
-        serializedVersion: 2
-        x: 608
-        y: 160
-        width: 159
-        height: 42
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4baa9e5ef3a519f48ad03239318b6552
-      internalID: 363129240
       vertices: []
       indices: 
       edges: []
@@ -3421,8 +3379,8 @@ TextureImporter:
         y: 208
         width: 16
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3442,8 +3400,8 @@ TextureImporter:
         y: 208
         width: 16
         height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3463,8 +3421,8 @@ TextureImporter:
         y: 208
         width: 32
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3484,8 +3442,8 @@ TextureImporter:
         y: 208
         width: 16
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3526,8 +3484,8 @@ TextureImporter:
         y: 208
         width: 16
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4085,6 +4043,90 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_189
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 439
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048ace2840ddb864fa74fc0b049e83c2
+      internalID: 183163615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_190
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 439
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a41443a223689e468408427c8c35cdb
+      internalID: 1149737613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_191
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 439
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0dd3d0acff15b489616079c711e6b4
+      internalID: -2096716564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Houses_192
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 439
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96519b9562b7cd348a7e8a4df07e1dba
+      internalID: 1664465148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -4138,6 +4180,7 @@ TextureImporter:
       CLT_Houses_18: -1578385096
       CLT_Houses_20: -855710282
       CLT_Houses_27: -765949259
+      CLT_Houses_190: 1149737613
       CLT_Houses_150: 1079875299
       CLT_Houses_134: 316412743
       CLT_Houses_109: 363129240
@@ -4177,6 +4220,7 @@ TextureImporter:
       CLT_Houses_50: -1261731780
       CLT_Houses_175: -227885432
       CLT_Houses_85: -459590069
+      CLT_Houses_191: -2096716564
       CLT_Houses_74: -1293350012
       CLT_Houses_133: -23172275
       CLT_Houses_147: -905771792
@@ -4202,6 +4246,8 @@ TextureImporter:
       CLT_Houses_46: 416789868
       CLT_Houses_124: -866592702
       CLT_Houses_99: 243812568
+      CLT_Houses_192: 1664465148
+      CLT_Houses_189: 183163615
       CLT_Houses_58: 637437512
       CLT_Houses_78: 1878422071
       CLT_Houses_55: 418987617

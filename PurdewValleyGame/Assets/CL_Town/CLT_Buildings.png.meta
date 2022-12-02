@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 1
         y: 977
-        width: 351
+        width: 186
         height: 191
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6971,7 +6971,7 @@ TextureImporter:
         width: 48
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6979,6 +6979,27 @@ TextureImporter:
       bones: []
       spriteID: 20f994b3af9c9c84f921a54b9d7dc671
       internalID: -1543126870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CLT_Buildings_327
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1088
+        width: 23
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f681954bf6c207c42bdee49c1655f029
+      internalID: 1098059767
       vertices: []
       indices: 
       edges: []
@@ -7074,6 +7095,7 @@ TextureImporter:
       CLT_Buildings_32: -1408932395
       CLT_Buildings_74: 742053079
       CLT_Buildings_64: 281842630
+      CLT_Buildings_327: 1098059767
       CLT_Buildings_197: -1581622337
       CLT_Buildings_35: -1730637236
       CLT_Buildings_25: -1097992727
