@@ -28313,7 +28313,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507673318583354250, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
       propertyPath: m_Name
-      value: Enter_Home
+      value: Leave_Home
       objectReference: {fileID: 0}
     - target: {fileID: 8518576397316454456, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
       propertyPath: sceneToLoad
@@ -28325,11 +28325,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: af25c4074d635754cb25d0f1783b8bcc, type: 2}
     - target: {fileID: 8518576397316454456, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
       propertyPath: playerPosition.x
-      value: 0
+      value: -1.038
       objectReference: {fileID: 0}
     - target: {fileID: 8518576397316454456, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
       propertyPath: playerPosition.y
-      value: -0.6
+      value: -0.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518576397316454456, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
+      propertyPath: playerNextScenePosition.x
+      value: 0.587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8518576397316454456, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
+      propertyPath: playerNextScenePosition.y
+      value: -1.66
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eff0ae884a73454ab2e8fe8517feffd, type: 3}
@@ -28705,7 +28713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2098514503}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.238, y: 0.716, z: 0}
   m_LocalScale: {x: 1, y: 0.9999999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
