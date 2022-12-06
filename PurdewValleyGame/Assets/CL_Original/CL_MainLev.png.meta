@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 259
-        width: 384
+        width: 192
         height: 157
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CL_MainLev_1
+      name: Bush_2
       rect:
         serializedVersion: 2
         x: 288
@@ -146,7 +146,7 @@ TextureImporter:
         width: 32
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CL_MainLev_4
+      name: Huge_Tree
       rect:
         serializedVersion: 2
         x: 326
@@ -222,7 +222,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CL_MainLev_5
+      name: Big_tree
       rect:
         serializedVersion: 2
         x: 437
@@ -768,7 +768,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CL_MainLev_31
+      name: Bush_1
       rect:
         serializedVersion: 2
         x: 288
@@ -776,7 +776,7 @@ TextureImporter:
         width: 32
         height: 39
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -784,6 +784,69 @@ TextureImporter:
       bones: []
       spriteID: d08eecab1c2e0cb40a7fe6b41fe5cdb5
       internalID: 1304268217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CL_MainLev_32
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 311
+        width: 60
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebec46c40a5b2bd45b0a07eac86e3af5
+      internalID: 762924467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_3
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 304
+        width: 30
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e4469748c865c43a04dcd650c2a364
+      internalID: -872131837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_4
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 271
+        width: 30
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b61a277090041649b62d83895044a37
+      internalID: -58519331
       vertices: []
       indices: 
       edges: []
@@ -799,29 +862,32 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Huge_Tree: 342749184
       CL_MainLev_30: 384388836
+      Big_tree: 1926643873
       CL_MainLev_15: -635951189
       CL_MainLev_29: -2108124707
+      CL_MainLev_32: 762924467
       CL_MainLev_24: -1619718475
-      CL_MainLev_5: 1926643873
+      Bush_3: -872131837
       CL_MainLev_2: 1239453810
       CL_MainLev_8: 1976965889
       CL_MainLev_25: 1016598809
       CL_MainLev_10: 1963466497
       CL_MainLev_14: 615743850
       CL_MainLev_6: -1046544159
+      Bush_2: 1982076117
       CL_MainLev_27: -2076077794
       CL_MainLev_7: 1176505273
       CL_MainLev_22: -1444467385
       CL_MainLev_23: 593464535
-      CL_MainLev_31: 1071809159
+      Bush_1: 1304268217
       CL_MainLev_16: -347565749
       CL_MainLev_21: -1695024966
       CL_MainLev_0: -1159834830
-      CL_MainLev_4: 342749184
       CL_MainLev_11: -619739231
-      CL_MainLev_1: 1982076117
       CL_MainLev_20: -1679594072
+      Bush_4: -58519331
       CL_MainLev_19: 532876130
       CL_MainLev_17: 481825788
       CL_MainLev_18: 1756334678

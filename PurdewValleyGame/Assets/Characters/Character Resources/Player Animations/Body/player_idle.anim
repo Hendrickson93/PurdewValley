@@ -41,7 +41,7 @@ AnimationClip:
     script: {fileID: 0}
   - curve:
     - time: 0
-      value: {fileID: 0}
+      value: {fileID: -349831294, guid: d5473ec7e6412cd41aca4d21ffe7922b, type: 3}
     attribute: m_Sprite
     path: Hair
     classID: 212
@@ -85,7 +85,7 @@ AnimationClip:
     - {fileID: 1333596174, guid: f40770e160120e842896c381dbd8f1be, type: 3}
     - {fileID: -63328476, guid: 78bf0b6f922fc3e428338a9707cc1a8c, type: 3}
     - {fileID: 1232059354, guid: 1a52f1368fb4fa0498a1752e6fec8198, type: 3}
-    - {fileID: 0}
+    - {fileID: -349831294, guid: d5473ec7e6412cd41aca4d21ffe7922b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
