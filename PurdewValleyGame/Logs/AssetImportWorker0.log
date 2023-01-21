@@ -15,7 +15,7 @@ C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59637
+60488
 Successfully changed project path to: C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 780.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 826.61 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,51 +63,870 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.028591 seconds.
+Registered in 0.020908 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 817.19 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 367.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.084 seconds
+- Completed reload, in  1.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3085ms)
-		BeginReloadAssembly (365ms)
+	ReloadAssembly (1732ms)
+		BeginReloadAssembly (228ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (2350ms)
-			LoadAssemblies (358ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (609ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1293ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (161ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (107ms)
-			SetupLoadedEditorAssemblies (1482ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (725ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (817ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (472ms)
-				ProcessInitializeOnLoadMethodAttributes (150ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (367ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.028661 seconds.
+Registered in 0.041926 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 716.93 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 414.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.616 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3620ms)
+		BeginReloadAssembly (571ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (50ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (2852ms)
+			LoadAssemblies (537ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (415ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (1038ms)
+				ProcessInitializeOnLoadMethodAttributes (159ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5828 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 6278.
+Memory consumption went from 241.0 MB to 240.2 MB.
+Total: 6.006900 ms (FindLiveObjects: 0.593500 ms CreateObjectMapping: 0.666400 ms MarkObjects: 4.249800 ms  DeleteObjects: 0.496000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 100217.805736 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_1.asset
+  artifactKey: Guid(fb8811d785cc11a439545649b249a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_1.asset using Guid(fb8811d785cc11a439545649b249a812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d63cb9f04996713665a408d265db496') in 0.197759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_10.asset
+  artifactKey: Guid(9b299abec70ecff4d8d742b1c0a683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_10.asset using Guid(9b299abec70ecff4d8d742b1c0a683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beec2bafff2fde0c8824e32d8639bfbd') in 0.057023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_8.asset
+  artifactKey: Guid(37c0a06800d8b0945b38590ac0fa4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_8.asset using Guid(37c0a06800d8b0945b38590ac0fa4694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c637f18886c2dac7b2960aa4f1226d1') in 0.048248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_3.asset
+  artifactKey: Guid(2eb90c7b7e7c11c4885639f8b27f27af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_3.asset using Guid(2eb90c7b7e7c11c4885639f8b27f27af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324009da1a2ea3a2ae1b8b848ee55941') in 0.049712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_18.asset
+  artifactKey: Guid(83245143dec77514e8f26164d9bfa78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_18.asset using Guid(83245143dec77514e8f26164d9bfa78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7a1eba9f6cc585170bea83c5fe999') in 0.047602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_15.asset
+  artifactKey: Guid(52a8d42d9408a1046835b47582e538df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_15.asset using Guid(52a8d42d9408a1046835b47582e538df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55d6966af6c4551763ac3be7a881d46a') in 0.051563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_2.asset
+  artifactKey: Guid(a5466d3f2ff10954d938853adb31cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_2.asset using Guid(a5466d3f2ff10954d938853adb31cd41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2483141b5a0b184c04f56a12d73bbb4a') in 0.033101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_4.asset
+  artifactKey: Guid(adaa50e9f8e0dcc41a906378e32b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_4.asset using Guid(adaa50e9f8e0dcc41a906378e32b06e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f136ac8f5f7f5bed1a5360ee9ea2c6') in 0.041314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_20.asset
+  artifactKey: Guid(3d0f36dfe5046334abf96830539d6e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_20.asset using Guid(3d0f36dfe5046334abf96830539d6e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cd3c6764ccd415d78c050daed6aa0d') in 0.174682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_6.asset
+  artifactKey: Guid(7af4e46cedecec74d849bfda715bf57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_6.asset using Guid(7af4e46cedecec74d849bfda715bf57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd3be34ca7609e2ed2fdc4af4c0f5de') in 0.037283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_21.asset
+  artifactKey: Guid(c20d905e4d677d4479ce7a26c703a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_21.asset using Guid(c20d905e4d677d4479ce7a26c703a76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44693748edd9c503d527690582a05430') in 0.066359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_9.asset
+  artifactKey: Guid(0a37681579b851e4eb7be3cb44054b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_9.asset using Guid(0a37681579b851e4eb7be3cb44054b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560124b93f95e8fe23673eabec4288d0') in 0.052090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_11.asset
+  artifactKey: Guid(66f9517176cbe7440a381c5e9c68a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_11.asset using Guid(66f9517176cbe7440a381c5e9c68a38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae7171205de5ceefee8adc4bd021fa6') in 0.057327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_13.asset
+  artifactKey: Guid(b96401b02f2e06642b2a3e0475a0eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_13.asset using Guid(b96401b02f2e06642b2a3e0475a0eaf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e5455cfa4516e9afc4aa9dd0f944e1a') in 0.055777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_7.asset
+  artifactKey: Guid(78f7df0669b1a964d98515a110cab24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_7.asset using Guid(78f7df0669b1a964d98515a110cab24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f195a3020dc1384f95a974481652346') in 0.090478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_0.asset
+  artifactKey: Guid(020c0907113efe4428ef143de7ae40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_0.asset using Guid(020c0907113efe4428ef143de7ae40e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b04be6b6203e2581e0d05fd31b14164') in 0.057102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_5.asset
+  artifactKey: Guid(bc191cf2d7216944a987c83402dee607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_5.asset using Guid(bc191cf2d7216944a987c83402dee607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00022bdbff96e44dd0746e402089d2d2') in 0.055041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_16.asset
+  artifactKey: Guid(4ea84b8a0660b914b842203a14096d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_16.asset using Guid(4ea84b8a0660b914b842203a14096d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d843ba889257dd1cfdd72db788496c') in 0.049316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_17.asset
+  artifactKey: Guid(7f90157501fe26d448f90047d7402649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_17.asset using Guid(7f90157501fe26d448f90047d7402649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d60c289ff496a2f46f46f846a04956') in 0.043091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_14.asset
+  artifactKey: Guid(c68ae82e7bb74de4f979e8a9056e3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_14.asset using Guid(c68ae82e7bb74de4f979e8a9056e3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90f681d87be72e66f32a18d3adcb271') in 0.058178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_12.asset
+  artifactKey: Guid(fd9fe09bb7f9c9c4ba41449248356769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_12.asset using Guid(fd9fe09bb7f9c9c4ba41449248356769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff19e65beae7460fe785963eda58f52') in 0.051040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_19.asset
+  artifactKey: Guid(556d72ac1a4b41f41b9e1c6025b6a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Palettes/Modern_UI_Style_1_32x32_19.asset using Guid(556d72ac1a4b41f41b9e1c6025b6a798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ebaa479b033983efafb42fca5ce76e') in 0.026565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.179978 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
+  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c88e2739ae7cee0dfe0d3f66bed573') in 11.810993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.876434 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
+  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc8bbb7e12ccc3074b9c4f1d2f7ba62') in 11.726218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
+  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc8bbb7e12ccc3074b9c4f1d2f7ba62') in 19.035052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.471471 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
+  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b245e30790d06f515de0a0bb317eab') in 12.419518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.104359 seconds.
+  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
+  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e535c285a1b5d3d5fdc0c60e048a89') in 9.391963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3611.920896 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07076d087e7229abbcf03b8b0fddd057') in 0.372722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.289081 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616edfa1c6dc5450123256795f889264') in 0.045595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.407419 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bc118f2524a869349a6f9f63e35424') in 10.547136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.906747 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette
+  artifactKey: Guid(045c3f3dc44934c479790071b92f579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette using Guid(045c3f3dc44934c479790071b92f579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e794b470889a4e0d047a95c764ec4806') in 0.027555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.457566 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e36ce96d1f53aff17b7af27c9110c559') in 10.302580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3654.756575 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI.prefab
+  artifactKey: Guid(9c83bf4fc61b8944a85624a7f3827c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI.prefab using Guid(9c83bf4fc61b8944a85624a7f3827c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db8082cf4e853aac9c03bcfe7712d8c') in 3.763808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_11.asset
+  artifactKey: Guid(7979d54cd5404ee4b83e9a3cf6dac278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_11.asset using Guid(7979d54cd5404ee4b83e9a3cf6dac278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb28a3550a3692b118aab22063bff03') in 0.054574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_40.asset
+  artifactKey: Guid(eae393fefc585a3478f222a2ef7484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_40.asset using Guid(eae393fefc585a3478f222a2ef7484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc04bc7686d9f17ab0cb1113b3789c4') in 0.053887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_9.asset
+  artifactKey: Guid(9280f3376df6112438866be08558aabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_9.asset using Guid(9280f3376df6112438866be08558aabf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3ccdd619d73ecd745e4364f6c24194e') in 0.056173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_16.asset
+  artifactKey: Guid(f44ddecb817811e47980c445d7b498e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_16.asset using Guid(f44ddecb817811e47980c445d7b498e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba821774427b320141354cb010e044bf') in 0.044358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_26.asset
+  artifactKey: Guid(1f155de4d12c3044cac40fb8a648f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_26.asset using Guid(1f155de4d12c3044cac40fb8a648f528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0336885ca9a344953fd1fbd232c8619') in 0.085698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_30.asset
+  artifactKey: Guid(6defe0be794fa28488f080c7289ce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_30.asset using Guid(6defe0be794fa28488f080c7289ce16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b06c6976a3bf244777f2f3e23846bb') in 0.046215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_37.asset
+  artifactKey: Guid(1229a9ce09e3df9449dad677e0fda274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_37.asset using Guid(1229a9ce09e3df9449dad677e0fda274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd0459d25c5f9546f94b3ddba594d0b') in 0.045827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_18.asset
+  artifactKey: Guid(11565b6708e2d964dab50e6976a78039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_18.asset using Guid(11565b6708e2d964dab50e6976a78039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb00e24d2ed5cf1b3b0aa9435e995df4') in 0.051789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_33.asset
+  artifactKey: Guid(621564ab66e3348468a284b2c7584c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_33.asset using Guid(621564ab66e3348468a284b2c7584c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8ffb0661fd49afd186b30bfdad83e1') in 0.049490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_53.asset
+  artifactKey: Guid(0676907927d212f49a4e8558a98944f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_53.asset using Guid(0676907927d212f49a4e8558a98944f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a752d795c8eb412ce7da80ca862cfad0') in 0.047803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_20.asset
+  artifactKey: Guid(b49b66f5ed56be541822151e85e21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_20.asset using Guid(b49b66f5ed56be541822151e85e21172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5054c3d3802538ea84383ee8a25e5dea') in 0.049856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_4.asset
+  artifactKey: Guid(b10d1d3d19ae5024e8c75a42add7ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_4.asset using Guid(b10d1d3d19ae5024e8c75a42add7ea3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43cc5a52413dd5565ac96848db874b0') in 0.044433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_28.asset
+  artifactKey: Guid(a94cbd02789f0554fae078d1337634f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_28.asset using Guid(a94cbd02789f0554fae078d1337634f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc105b87a8f63c9d560066ee7e94173') in 0.043224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_6.asset
+  artifactKey: Guid(c8248fd5541309e4ab253b5bb1a14494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_6.asset using Guid(c8248fd5541309e4ab253b5bb1a14494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e62e633387a2f8ec58850eda6de8cf') in 0.046559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_34.asset
+  artifactKey: Guid(5ac62ebee66de56429d63283f7976595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_34.asset using Guid(5ac62ebee66de56429d63283f7976595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eac94eaad6bbdef1b30f725e942b77') in 0.045341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_45.asset
+  artifactKey: Guid(8add9e1199e02354a8ea8e15333da820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_45.asset using Guid(8add9e1199e02354a8ea8e15333da820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e840379115d6506aa3af1d91132c81e2') in 0.051797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_7.asset
+  artifactKey: Guid(14c01a82592e21e438ec109dad5f1ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_7.asset using Guid(14c01a82592e21e438ec109dad5f1ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79862bdb3647c468d8e9866c80f3022') in 0.041610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_25.asset
+  artifactKey: Guid(a575a1a1e70533b4a993b04958be9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_25.asset using Guid(a575a1a1e70533b4a993b04958be9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dff06170dd5c1037972a9daabbd39c9') in 0.053349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_50.asset
+  artifactKey: Guid(2137293ea2ce8ef42874abca61297c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_50.asset using Guid(2137293ea2ce8ef42874abca61297c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ffa50fe555f29f09c37733ae37df7c') in 0.049804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_22.asset
+  artifactKey: Guid(d3beeb429fb69654092ad78f04abb00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_22.asset using Guid(d3beeb429fb69654092ad78f04abb00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62aed30771328b6bc52092ff365e8eae') in 0.053089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_0.asset
+  artifactKey: Guid(1e48d591e49eb3c41b7ff445ea6810be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_0.asset using Guid(1e48d591e49eb3c41b7ff445ea6810be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733767510020c8a0e3fea757a10b1a4a') in 0.042211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_29.asset
+  artifactKey: Guid(41b7132de2eabb4478b8bcacba61ddd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_29.asset using Guid(41b7132de2eabb4478b8bcacba61ddd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5421d09c37166958835e54ceedd98625') in 0.046548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_48.asset
+  artifactKey: Guid(efc4527de50a52249b24bb224cee0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_48.asset using Guid(efc4527de50a52249b24bb224cee0180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab751efdfde722cd41e158c0168f1df3') in 0.033914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_55.asset
+  artifactKey: Guid(6f444923f4ee06740a78a075b1ee580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_55.asset using Guid(6f444923f4ee06740a78a075b1ee580d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e897ba3e570281be8e71e82a77d4969') in 0.057158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_38.asset
+  artifactKey: Guid(4d3fb60a49eefc041b93902dcf7928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_38.asset using Guid(4d3fb60a49eefc041b93902dcf7928d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1d1cba6237f1fc3aa769ed6f987b4c') in 0.047691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_43.asset
+  artifactKey: Guid(c15da60efba0a7a4593876ce2452fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_43.asset using Guid(c15da60efba0a7a4593876ce2452fab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55815156d6c5519372c05708d3e05f7c') in 0.047536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_5.asset
+  artifactKey: Guid(c15f05907745f084f8b19fd80481b670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_5.asset using Guid(c15f05907745f084f8b19fd80481b670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f673c3f74083bf0cc23040565d8a761d') in 0.052002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_35.asset
+  artifactKey: Guid(df37d4639c0608d409c5420b84b2d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_35.asset using Guid(df37d4639c0608d409c5420b84b2d736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec14da00aa1c4c00deb4ce3a3f55187') in 0.044584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_52.asset
+  artifactKey: Guid(5f5b5f4a345c16846b60117ece42d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_52.asset using Guid(5f5b5f4a345c16846b60117ece42d2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ebfc690394af42746347e5adeccf09e') in 0.052893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_14.asset
+  artifactKey: Guid(b9bb6b9ca22778c43a4cb77a9063286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_14.asset using Guid(b9bb6b9ca22778c43a4cb77a9063286e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93e0dbd5ff30e7e7f9ebada9a2e9695') in 0.063379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_19.asset
+  artifactKey: Guid(e8b3bce36e7785642baa0b31db77d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_19.asset using Guid(e8b3bce36e7785642baa0b31db77d6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d52e68fcb06097540198820f416ff1f') in 0.076698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_49.asset
+  artifactKey: Guid(41727728b9302304480418a19cd06ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_49.asset using Guid(41727728b9302304480418a19cd06ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7832e79491cd0e5da85a7f2ed4b256') in 0.061083 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_31.asset
+  artifactKey: Guid(b48af494ae6e6a4439c5e0f7efe27452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_31.asset using Guid(b48af494ae6e6a4439c5e0f7efe27452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b5df14d90379889c0927fded20c394') in 0.060830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_1.asset
+  artifactKey: Guid(7649d16d7b7d57143bc343416a968194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_1.asset using Guid(7649d16d7b7d57143bc343416a968194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c62b2ec871b44e2995f55a4f6a896f87') in 0.051248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_2.asset
+  artifactKey: Guid(23eab88ba329dcc41a388c2477801409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_2.asset using Guid(23eab88ba329dcc41a388c2477801409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9dbc1dd38e8d3a97972d6c9c5544082') in 0.070315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_13.asset
+  artifactKey: Guid(d85075cd6833f2e40ba4a9449664b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_13.asset using Guid(d85075cd6833f2e40ba4a9449664b4b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad90195996491a03477bf794b5968dd') in 0.056739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_10.asset
+  artifactKey: Guid(1958029595695584785e4b2d84367082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_10.asset using Guid(1958029595695584785e4b2d84367082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c0a03ae553f2c2f9bc46edc902bdda') in 0.056673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_8.asset
+  artifactKey: Guid(b1dab68308f69aa449c262b279616d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_8.asset using Guid(b1dab68308f69aa449c262b279616d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df2ac14ca704faca01ad8271415d25fc') in 0.106247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_42.asset
+  artifactKey: Guid(25fe468fd42187b4ea2fc7736ace162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_42.asset using Guid(25fe468fd42187b4ea2fc7736ace162e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8778aa758c7df55a0802b8a0dfbe693') in 0.053247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_41.asset
+  artifactKey: Guid(2d28bed242a7d51418e3a83d0192d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_41.asset using Guid(2d28bed242a7d51418e3a83d0192d258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5450216170deaea5a89c4d4b5536551c') in 0.054802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_17.asset
+  artifactKey: Guid(74131cb7ec3264d4a980f1940932b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_17.asset using Guid(74131cb7ec3264d4a980f1940932b4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5708c3b8f224cb74c2e0219894e0975c') in 0.062979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_12.asset
+  artifactKey: Guid(963fbbbc58a82834ab6eef5a93b98427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_12.asset using Guid(963fbbbc58a82834ab6eef5a93b98427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc7bc58f44cad95d6c40054ea673d16') in 0.069805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_15.asset
+  artifactKey: Guid(ec355c28c96383646a6a8e57ae1ade63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_15.asset using Guid(ec355c28c96383646a6a8e57ae1ade63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2b5490761ca2c67ee95674bce6eeeae') in 0.055923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_24.asset
+  artifactKey: Guid(8c6a1e9f4bce6a946b42b2a4a80657f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_24.asset using Guid(8c6a1e9f4bce6a946b42b2a4a80657f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37207b181e317c556719ab052e22c1d6') in 0.052779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_54.asset
+  artifactKey: Guid(bbc502461bdde6f4ca6dd2f07eb36bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_54.asset using Guid(bbc502461bdde6f4ca6dd2f07eb36bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ec75c88b6280412be689eb0631d70a') in 0.062729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_46.asset
+  artifactKey: Guid(15eaea0ee336bbe4596d1f1454251497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_46.asset using Guid(15eaea0ee336bbe4596d1f1454251497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbd543e6c11a687c8f16463d496c20c') in 0.084519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_23.asset
+  artifactKey: Guid(ef5771be86160b340a8ad240d3b2dbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_23.asset using Guid(ef5771be86160b340a8ad240d3b2dbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1143326ef3b156f05beee65356c799c') in 0.065464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_3.asset
+  artifactKey: Guid(2a2da67de8634b74eab830bb440cf35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_3.asset using Guid(2a2da67de8634b74eab830bb440cf35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c9979916aa571af06a082b2151a7e3') in 0.051718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_32.asset
+  artifactKey: Guid(aaa0ceaf04ef71e4b90dcaa1782ccd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_32.asset using Guid(aaa0ceaf04ef71e4b90dcaa1782ccd0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24d648a34c661404ef8a7533bb47336') in 0.060602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_51.asset
+  artifactKey: Guid(e71ad12e4bd57e246a4db6d9f0d45afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_51.asset using Guid(e71ad12e4bd57e246a4db6d9f0d45afa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477f1f2bfeb4e1aad4d782114cb9052c') in 0.081818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_47.asset
+  artifactKey: Guid(8f712277386450140b00794f96a90335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_47.asset using Guid(8f712277386450140b00794f96a90335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '284b8b53835fd888c0dab599f53ca0f2') in 0.030497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_36.asset
+  artifactKey: Guid(e903262984e8f5541ad6b8d06513e662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_36.asset using Guid(e903262984e8f5541ad6b8d06513e662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d302df5376850d79a97314db48f234c') in 0.041791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_27.asset
+  artifactKey: Guid(dcffdc130474b134488d2505dfd04468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_27.asset using Guid(dcffdc130474b134488d2505dfd04468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5fb8e7b0dd8c1c5b3f961dcc7791b0') in 0.054611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_39.asset
+  artifactKey: Guid(a8ccf3952cf4cd54f86fd96bfc759731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_39.asset using Guid(a8ccf3952cf4cd54f86fd96bfc759731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9151955672538623033b9aa3ba566d13') in 0.059095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_44.asset
+  artifactKey: Guid(880f1f8807d098744b8589d586334636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_44.asset using Guid(880f1f8807d098744b8589d586334636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb37da3091f25d2ac9cfd7c633f8b8f') in 0.058482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_21.asset
+  artifactKey: Guid(2b526935476d55745b2f3e2b714fd774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Palette/Modern_UI_Style_1_21.asset using Guid(2b526935476d55745b2f3e2b714fd774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b47d17b427773605aca7f1864b11f26b') in 0.061039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.638352 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb370cc362d4214c9f11fd9c0e6fd07') in 11.878243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.184546 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcb54fd0b0136e12a27927e3cf72920') in 13.992812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.996284 seconds.
+  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
+  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ffb003b985166f61ab2bd44276bd74') in 13.432082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 742.566587 seconds.
+  path: Assets/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png
+  artifactKey: Guid(74f8b4d56cb24724abef2f7c526fd9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSimpleUIPack/Examples/Graphics/ui-small-icons.png using Guid(74f8b4d56cb24724abef2f7c526fd9ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a84bbaf330bd61629f09b4fa237de4') in 0.162993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.532725 seconds.
+  path: Assets/2DSimpleUIPack/Sprites/ui-small-icons.png
+  artifactKey: Guid(497877696662aee47ba7434638be1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSimpleUIPack/Sprites/ui-small-icons.png using Guid(497877696662aee47ba7434638be1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec3c477c9b6a3f13dab7c4f6102c7a') in 0.072253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.034537 seconds.
+  path: Assets/2DSimpleUIPack/Examples/Graphics/ui-panels.png
+  artifactKey: Guid(c902e08bd83e04947b6e8d7f31f385be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSimpleUIPack/Examples/Graphics/ui-panels.png using Guid(c902e08bd83e04947b6e8d7f31f385be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e3ff4aaee8eaa6337a824df7e20b87') in 0.196699 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 5.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5126ms)
+		BeginReloadAssembly (777ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (92ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (370ms)
+		EndReloadAssembly (4113ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (126ms)
+			SetupLoadedEditorAssemblies (2910ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (5ms)
+				BeforeProcessingInitializeOnLoad (183ms)
+				ProcessInitializeOnLoadAttributes (2307ms)
+				ProcessInitializeOnLoadMethodAttributes (346ms)
+				AfterProcessingInitializeOnLoad (40ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 6301.
+Memory consumption went from 254.6 MB to 253.8 MB.
+Total: 11.001500 ms (FindLiveObjects: 0.541700 ms CreateObjectMapping: 0.494700 ms MarkObjects: 8.996600 ms  DeleteObjects: 0.966900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.060 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2061ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1711ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (405ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (1003ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (172ms)
+				ProcessInitializeOnLoadAttributes (671ms)
+				ProcessInitializeOnLoadMethodAttributes (123ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 6304.
+Memory consumption went from 254.6 MB to 253.8 MB.
+Total: 6.588700 ms (FindLiveObjects: 0.532900 ms CreateObjectMapping: 0.509200 ms MarkObjects: 5.038800 ms  DeleteObjects: 0.506500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1173.064742 seconds.
+  path: Assets/2DSimpleUIPack
+  artifactKey: Guid(e9c2ca3562ef90747a22c97cf2fda6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DSimpleUIPack using Guid(e9c2ca3562ef90747a22c97cf2fda6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21cce3d00f2827b040400f77a9e478f4') in 0.044276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.180839 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(e54ed3ced8a44da409a16b1fd4168f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(e54ed3ced8a44da409a16b1fd4168f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf3a0ea874cefafc81dd8eaae65d27a') in 0.029015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.879656 seconds.
+  path: Assets/Settings/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(b56fd1e776859b64f9332c612e1258a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Universal Render Pipeline Asset.asset using Guid(b56fd1e776859b64f9332c612e1258a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda73387239689e7a90084d110c4f131') in 0.108044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Settings/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(a6d343fee4d728d4e943052d4296b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Universal Render Pipeline Asset_Renderer.asset using Guid(a6d343fee4d728d4e943052d4296b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d23500ef119edbb1b8da69cdb45f82') in 0.055620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.031691 seconds.
+  path: Assets/Settings/New 2D Renderer Data.asset
+  artifactKey: Guid(7dfd22b0b6d27c942bcf7dd8efb52bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New 2D Renderer Data.asset using Guid(7dfd22b0b6d27c942bcf7dd8efb52bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd58ddf4bcf6e6d04f842cbfa4e7e53') in 0.054699 seconds 
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> b56fd1e776859b64f9332c612e1258a0
+Refreshing native plugins compatible for Editor in 23.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 87 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 6355.
+Memory consumption went from 131.9 MB to 131.2 MB.
+Total: 9.149300 ms (FindLiveObjects: 0.566100 ms CreateObjectMapping: 0.543900 ms MarkObjects: 6.985300 ms  DeleteObjects: 1.052300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175.886513 seconds.
+  path: Assets/Settings/New Universal Render Pipeline Asset_Renderer.asset
+  artifactKey: Guid(a6d343fee4d728d4e943052d4296b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Universal Render Pipeline Asset_Renderer.asset using Guid(a6d343fee4d728d4e943052d4296b9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21afe9618c7180d42fb9e6d115881490') in 0.012224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Settings/New Universal Render Pipeline Asset.asset
+  artifactKey: Guid(b56fd1e776859b64f9332c612e1258a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/New Universal Render Pipeline Asset.asset using Guid(b56fd1e776859b64f9332c612e1258a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8951376d2c1b669224a2a292ab5609c9') in 0.009409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.113336 seconds.
+  path: Assets/Home2.jpg
+  artifactKey: Guid(fa0094c4b44ad7e4b9cef43938f58cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Home2.jpg using Guid(fa0094c4b44ad7e4b9cef43938f58cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fba3cc54dcc4b1a871e0a4acdc23ff') in 0.278382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(00913b4d72b9f4947be8a94cde599282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(00913b4d72b9f4947be8a94cde599282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af8783ec98d73ebc2478bb0988947d7') in 0.023357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.462034 seconds.
+  path: Assets/Settings/n.asset
+  artifactKey: Guid(e7a46f8f51f7f9d40b8a1c5886bf093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/n.asset using Guid(e7a46f8f51f7f9d40b8a1c5886bf093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36efc659b4f754843a3e15142c4ee458') in 0.023196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.916850 seconds.
+  path: Assets/Settings/2D Renderer.asset
+  artifactKey: Guid(e7a46f8f51f7f9d40b8a1c5886bf093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings/2D Renderer.asset using Guid(e7a46f8f51f7f9d40b8a1c5886bf093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f3509563911d3eeb8a890f552f664d') in 0.018804 seconds 

@@ -663,7 +663,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Terrain_26
+      name: LightPost_Off
       rect:
         serializedVersion: 2
         x: 353
@@ -684,7 +684,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Terrain_27
+      name: LightPost_On
       rect:
         serializedVersion: 2
         x: 369
@@ -705,7 +705,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Terrain_28
+      name: Bench_Right
       rect:
         serializedVersion: 2
         x: 384
@@ -726,7 +726,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Terrain_29
+      name: Bench_Down
       rect:
         serializedVersion: 2
         x: 400
@@ -747,7 +747,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CLT_Terrain_30
+      name: Bench_Left
       rect:
         serializedVersion: 2
         x: 433
@@ -1007,7 +1007,7 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,7 +1034,7 @@ TextureImporter:
       CLT_Terrain_23: 1654521040
       CLT_Terrain_10: -44732055
       CLT_Terrain_18: 511544606
-      CLT_Terrain_29: -1683609492
+      LightPost_On: -1790510004
       CLT_Terrain_14: 1650096955
       CLT_Terrain_39: 1440265103
       CLT_Terrain_13: -1816050267
@@ -1047,23 +1047,23 @@ TextureImporter:
       CLT_Terrain_12: -985158856
       CLT_Terrain_35: -1076561371
       CLT_Terrain_21: 2023818018
-      CLT_Terrain_28: -1512084017
+      Bench_Down: -1683609492
       CLT_Terrain_22: 421330398
       CLT_Terrain_20: 800372545
       CLT_Terrain_6: 1094926463
-      CLT_Terrain_27: -1790510004
       CLT_Terrain_42: -284679781
       CLT_Terrain_11: 1862606746
+      LightPost_Off: 1673333239
       CLT_Terrain_1: 281037240
       CLT_Terrain_33: 919509218
-      CLT_Terrain_30: 66768252
       CLT_Terrain_16: 1219885003
       CLT_Terrain_37: 890312708
       CLT_Terrain_9: 641455423
       CLT_Terrain_5: 1627585690
       CLT_Terrain_3: -845858056
-      CLT_Terrain_26: 1673333239
+      Bench_Left: 66768252
       CLT_Terrain_17: -821710198
+      Bench_Right: -1512084017
       CLT_Terrain_36: -70051593
       CLT_Terrain_41: 167823638
       CLT_Terrain_38: -1752022728
