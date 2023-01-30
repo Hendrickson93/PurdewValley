@@ -9,6 +9,9 @@ public class DayTimeController : MonoBehaviour
     //Constant variable for the total number of seconds in a day
     const float secondsInDay = 86400f;
 
+    //Singleton instance of the DayTimeController class
+    public static DayTimeController instance;
+
     //Serializable fields that can be set in the Unity editor
     [SerializeField] Color nightLightColor;
     [SerializeField] AnimationCurve nightTimeCurve;
@@ -35,6 +38,7 @@ public class DayTimeController : MonoBehaviour
         get { return time / 3600f; }
     }
 
+  
     private void Update()
     {
         //Increment time based on delta time and time scale
