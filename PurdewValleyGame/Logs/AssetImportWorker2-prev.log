@@ -15,7 +15,7 @@ C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-59940
+53893
 Successfully changed project path to: C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/16169/Documents/GitHub/PurdewValley/PurdewValleyGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 362.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 589.36 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -63,118 +63,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012804 seconds.
+Registered in 0.018715 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 349.04 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 606.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.193 seconds
+- Completed reload, in  2.362 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1194ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (2363ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (918ms)
-			LoadAssemblies (106ms)
+		EndReloadAssembly (1960ms)
+			LoadAssemblies (166ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (518ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (645ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (1281ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (349ms)
+				RefreshPlugins (607ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (213ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				ProcessInitializeOnLoadAttributes (525ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015502 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\16169\Documents\GitHub\PurdewValley\PurdewValleyGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 343.80 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 12.893 seconds
-Domain Reload Profiling:
-	ReloadAssembly (12895ms)
-		BeginReloadAssembly (171ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (12429ms)
-			LoadAssemblies (6761ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (109ms)
-			SetupLoadedEditorAssemblies (4223ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (344ms)
-				BeforeProcessingInitializeOnLoad (191ms)
-				ProcessInitializeOnLoadAttributes (2036ms)
-				ProcessInitializeOnLoadMethodAttributes (1630ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 5.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5828 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 6278.
-Memory consumption went from 241.0 MB to 240.2 MB.
-Total: 9.489900 ms (FindLiveObjects: 0.652400 ms CreateObjectMapping: 0.558800 ms MarkObjects: 7.790100 ms  DeleteObjects: 0.487300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 86267.268422 seconds.
-  path: Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png
-  artifactKey: Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern_User_Interface_v1.0/16x16/Modern_UI_Style_1.png using Guid(840074d6cc679c94da76f23b3d8556a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c3bf22647fb867c960ad3348a487e9') in 0.287729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 157.657695 seconds.
-  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
-  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea10c44bd273915808e3ce05b8ac933') in 12.187270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13370.681685 seconds.
-  path: Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png
-  artifactKey: Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modern_User_Interface_v1.0/32x32/Modern_UI_Style_1_32x32.png using Guid(846f5759e7ecd6e4fbd649836fd17d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ae785176d759d8b6a8c7e25b93d853') in 12.843566 seconds 
+Registered in 0.021079 seconds.
